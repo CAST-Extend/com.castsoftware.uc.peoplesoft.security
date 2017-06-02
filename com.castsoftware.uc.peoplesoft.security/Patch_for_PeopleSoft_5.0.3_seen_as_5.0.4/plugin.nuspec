@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.peoplesoft</id>
+    <version>5.0.4</version>
+    <title>Techonology Extension For peoplesoft - pure UA for AGR tests</title>
+    <authors>CAST Product</authors>
+    <owners>CAST</owners>
+    <licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-AIP-Extension-License</licenseUrl>
+    <projectUrl>http://doc.castsoftware.com/display/DOCEXT/PeopleSoft+5.0</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This extension should be installed to enable the analysis of the PeopleSoft code contained in your application. For CAST AIP compatibility, refer to compatibility section in the extension Release Notes.</description>
+    <releaseNotes>http://doc.castsoftware.com/display/DOCEXT/PeopleSoft+5.0+-+Release+Notes</releaseNotes>
+    <tags>peoplesoft CAIP8.0</tags>
+    <dependencies>
+      <dependency id="CAIP" version="7.3.6" />
+    </dependencies>
+  </metadata>
+</package>
