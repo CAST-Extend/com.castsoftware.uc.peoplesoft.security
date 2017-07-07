@@ -8,7 +8,7 @@ class Test(unittest.TestCase):
 
 
     def testName(self):
-        run(kb_name='psft_cwe2_local', application_name='Psft_CWE2_TC1')
+        run(kb_name='peoplesoft_local', application_name='eForce')
 
 if __name__ == "__main__":
     unittest.main()
