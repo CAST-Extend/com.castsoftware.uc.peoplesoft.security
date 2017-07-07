@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metaModel file_no="100" file_level="prepackaged">
+<!-- Version: 5.0.0 -->
+<!-- Categories --> 
+  <category name="APM PeopleSoft Module" rid="0">
+    <description>PeopleSoft</description>
+    <inheritedCategory name="APM Client Modules"/>
+  </category>
+  <category name="APM PeopleSoft Artifacts" rid="1">
+    <description>PeopleSoft Artifacts</description>
+    <inheritedCategory name="APM Client Language Artifacts"/>
+  </category>
+  <category name="PeopleSoft" rid="2">
+    <description>PeopleSoft UA only</description>
+	<attribute name="extensions" stringValue="*.src" />
+    <inheritedCategory name="UniversalLanguage"/>
+    <inheritedCategory name="CsvLanguage"/>
+  </category>
+  <category name="PSoft_Object" rid="10">
+    <description>PeopleSoft Object</description>
+
+    <property name="szlastUpdOprId" type="string" rid="100">
+      <description>szlastUpdOprId</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600010"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="Status" type="string" rid="101">
+      <description>Status</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600010"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="szlastUpdDttm" type="string" rid="102">
+      <description>szlastUpdDttm</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600010"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="DiscriminationStatus" type="integer" rid="103">
+      <description>DiscriminationStatus</description>
+      <attribute name="ACCESS_APPVIEW" intValue="0"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="0"/>
+      <attribute name="INF_TYPE" intValue="1600010"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+  </category>
+  <category name="PSoft_MainObject" rid="11">
+    <description>PeopleSoft MainObject</description>
+
+    <property name="szObjectOwnerId" type="string" rid="104">
+      <description>szObjectOwnerId</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="szLanguageCd" type="string" rid="105">
+      <description>szLanguageCd</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="CheckDescr" type="integer" rid="106">
+      <description>Empty description</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="CheckDescrLong" type="integer" rid="107">
+      <description>Empty long description</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="CheckDescrLongDesc" type="integer" rid="108">
+      <description>Long description in descending order</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <property name="CheckDescrLongFormat" type="integer" rid="109">
+      <description>Formatted long description</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="5"/>
+    </property>
+    <property name="DescrLong" type="string" rid="110">
+      <description>Long description</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="6"/>
+    </property>
+    <property name="DevAttachedToProject" type="integer" rid="111">
+      <description>DevAttachedToProject</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600011"/>
+      <attribute name="INF_SUB_TYPE" intValue="7"/>
+    </property>
+    <inheritedCategory name="PSoft_Object"/>
+  </category>
+  <category name="PSoft_Records" rid="12">
+    <description>PeopleSoft Records</description>
+
+    <property name="SQLTableName" type="string" rid="112">
+      <description>SQLTableName</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="NbRFDeleted" type="integer" rid="113">
+      <description>Number of deleted record fiels</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="ListRFDeleted" type="string" rid="114">
+      <description>List of deleted record fiels</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="Tablespace" type="string" rid="115">
+      <description>Tablespace Name</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="BuildSeqNo" type="string" rid="116">
+      <description>Build Sequence Number</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <property name="TablespaceName" type="string" rid="117">
+      <description>Tablespace Name</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="5"/>
+    </property>
+    <property name="IsInRecGroup" type="integer" rid="118">
+      <description>IsInRecGroup</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="6"/>
+    </property>
+    <property name="IsSETIDInKey" type="integer" rid="119">
+      <description>IsSETIDInKey</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="7"/>
+    </property>
+    <property name="IsEFF" type="integer" rid="120">
+      <description>IsEFF</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="8"/>
+    </property>
+    <property name="IsBothEFF" type="integer" rid="121">
+      <description>IsBothEFF</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="9"/>
+    </property>
+    <property name="RecFieldCount" type="integer" rid="122">
+      <description>Record Field Count</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="10"/>
+    </property>
+    <property name="RecFieldDBCount" type="integer" rid="123">
+      <description>Record FieldDB Count</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="11"/>
+    </property>
+    <property name="CheckSQLTableName" type="integer" rid="124">
+      <description>CheckSQLTableName</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="12"/>
+    </property>
+    <property name="CheckIsBothEFF" type="integer" rid="125">
+      <description>CheckIsBothEFF</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600012"/>
+      <attribute name="INF_SUB_TYPE" intValue="13"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_RecordsFieldIndex" rid="13">
+    <description>PeopleSoft Record Field and Index</description>
+
+    <property name="recordFieldNum" type="string" rid="126">
+      <description>recordFieldNum</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="IndexType" type="integer" rid="127">
+      <description>IndexType</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="NbField" type="string" rid="128">
+      <description>NbField</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="CheckSYNCID" type="integer" rid="129">
+      <description>Check SYNCID</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="recordFieldUse" type="integer" rid="130">
+      <description>recordFieldUse</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <property name="recordFieldDBNum" type="integer" rid="131">
+      <description>recordFieldDBNum</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600013"/>
+      <attribute name="INF_SUB_TYPE" intValue="5"/>
+    </property>
+    <inheritedCategory name="PSoft_Object"/>
+  </category>
+  <category name="PSoft_Fields" rid="14">
+    <description>PeopleSoft Fields</description>
+
+    <property name="CheckDeleteDelieveredValues" type="integer" rid="132">
+      <description>CheckDeleteDelieveredValues</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="CheckFieldLenght" type="string" rid="133">
+      <description>CheckFieldLenght</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <property name="CheckType" type="string" rid="134">
+      <description>CheckType</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="5"/>
+    </property>
+    <property name="CheckFieldAtributeModification" type="string" rid="135">
+      <description>CheckFieldAtributeModification</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="6"/>
+    </property>
+    <property name="FieldType" type="integer" rid="136">
+      <description>Field Type</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="9"/>
+    </property>
+    <property name="FieldLength" type="integer" rid="137">
+      <description>Field Length</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="10"/>
+    </property>
+    <property name="FieldFormat" type="integer" rid="138">
+      <description>Field Format</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="11"/>
+    </property>
+    <property name="FieldFormatLength" type="integer" rid="139">
+      <description>Field Format Length</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="12"/>
+    </property>
+    <property name="FieldImgFmt" type="integer" rid="140">
+      <description>Field Image Format</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="13"/>
+    </property>
+    <property name="FieldFormatFamily" type="string" rid="141">
+      <description>Field Format Family</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="14"/>
+    </property>
+    <property name="FieldDispFmtName" type="string" rid="142">
+      <description>Field Display Format Name</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="15"/>
+    </property>
+    <property name="FieldDefCntyYR" type="integer" rid="143">
+      <description>Field Definition Country Year</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="16"/>
+    </property>
+    <property name="FieldIMEMode" type="integer" rid="144">
+      <description>Field IME Mode</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="17"/>
+    </property>
+    <property name="FieldKBLayout" type="integer" rid="145">
+      <description>Field KB Layout</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600014"/>
+      <attribute name="INF_SUB_TYPE" intValue="18"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_Pages" rid="15">
+    <description>PeopleSoft Pages</description>
+
+    <property name="FieldCount" type="integer" rid="146">
+      <description>Field Count</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600015"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="PanelUse" type="integer" rid="147">
+      <description>PanelUse</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600015"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="PageDeferProc" type="integer" rid="148">
+      <description>Page DeferProc</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600015"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="PageHeight" type="integer" rid="149">
+      <description>PageHeight</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600015"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="PageWidth" type="integer" rid="150">
+      <description>PageWidth</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600015"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_PCodeClass" rid="16">
+    <description>PeopleSoft People Code Class</description>
+
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="APM Classes"/>
+  </category>
+  <category name="PSoft_PCodeEvent" rid="17">
+    <description>PeopleSoft People Code Event</description>
+
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="ESQLSearchable"/>
+  </category>
+  <category name="PSoft_PCodeMethods" rid="18">
+    <description>PeopleSoft People Code Method</description>
+
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="ESQLSearchable"/>
+  </category>
+  <category name="PSoft_PCodeFunctions" rid="19">
+    <description>PeopleSoft People Code Function</description>
+
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="ESQLSearchable"/>
+  </category>
+  <category name="PSoft_Components" rid="20">
+    <description>PeopleSoft Component</description>
+
+    <property name="CompDeferProc" type="integer" rid="151">
+      <description>CompDeferProc</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600020"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_Menus" rid="21">
+    <description>PeopleSoft Menu</description>
+
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_PermissionLists" rid="22">
+    <description>PeopleSoft Permission List</description>
+
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_SQLDefinitions" rid="23">
+    <description>PeopleSoft SQL Definition</description>
+
+    <property name="SQLlastUpdOprId" type="string" rid="152">
+      <description>SQLlastUpdOprId</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600023"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="SQLlastUpdDttm" type="string" rid="153">
+      <description>SQLlastUpdDttm</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600023"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="APM SQL Language Artifacts"/>
+    <inheritedCategory name="ESQLSearchable"/>
+  </category>
+  <category name="PSoft_ApplicationEngines" rid="24">
+    <description>PeopleSoft Application Engine</description>
+
+    <property name="Library" type="integer" rid="154">
+      <description>Application Library</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600024"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_PageFields" rid="25">
+    <description>PeopleSoft Page Field</description>
+
+    <property name="PageFieldNum" type="integer" rid="155">
+      <description>Page Field Number</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="PageFieldType" type="integer" rid="156">
+      <description>Page Field Type</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="PageFieldUse" type="integer" rid="157">
+      <description>Page Field Use</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="RelatedDisplay" type="integer" rid="158">
+      <description>Related Display</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="DisplayOnly" type="integer" rid="159">
+      <description>Display Only</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <property name="DisplayControl" type="integer" rid="160">
+      <description>Display Control</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="5"/>
+    </property>
+    <property name="CheckHunderedsOfRows" type="integer" rid="161">
+      <description>Check Hundereds Of Rows</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="6"/>
+    </property>
+    <property name="CheckNoColon" type="integer" rid="162">
+      <description>CheckNoColon</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="7"/>
+    </property>
+    <property name="LblType" type="integer" rid="163">
+      <description>LblType</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="8"/>
+    </property>
+    <property name="LblLoc" type="integer" rid="164">
+      <description>LblLco</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="9"/>
+    </property>
+    <property name="CheckGridHeader" type="integer" rid="165">
+      <description>CheckGridHeader</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="10"/>
+    </property>
+    <property name="FieldDeferProc" type="integer" rid="166">
+      <description>FieldDeferProc</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600025"/>
+      <attribute name="INF_SUB_TYPE" intValue="11"/>
+    </property>
+    <inheritedCategory name="PSoft_Object"/>
+  </category>
+  <category name="PSoft_Users" rid="26">
+    <description>PeopleSoft User</description>
+
+    <property name="LastPwdChange" type="string" rid="167">
+      <description>Last Password Change</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600026"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="LastSignOn" type="string" rid="168">
+      <description>Last Sign On</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600026"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_Roles" rid="27">
+    <description>PeopleSoft Role</description>
+
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+  <category name="PSoft_ObjectProp" rid="28">
+    <description>PeopleSoft Object with Properties</description>
+
+    <property name="CheckTranslateEnFr" type="integer" rid="169">
+      <description>CheckTranslateEnFr</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600028"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="CheckTranslationSubstitution" type="integer" rid="170">
+      <description>CheckTranslationSubstitution</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600028"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="DisplayOnly" type="integer" rid="171">
+      <description>Display Only</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600028"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="AuthorizedActions" type="integer" rid="172">
+      <description>Authorized Actions</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600028"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="RECURNAME" type="string" rid="173">
+      <description>RECURNAME</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600028"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+  </category>
+  <category name="PSoft_FieldsObject" rid="29">
+    <description>PeopleSoft Field Object</description>
+
+    <property name="CheckTranslateEnFrXLAT" type="integer" rid="174">
+      <description>CheckTranslateEnFrXLAT</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600029"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="CheckTranslateEnFrField" type="integer" rid="175">
+      <description>CheckTranslateEnFrField</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600029"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <property name="CheckFilledLabel" type="integer" rid="176">
+      <description>CheckFilledLabel</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600029"/>
+      <attribute name="INF_SUB_TYPE" intValue="2"/>
+    </property>
+    <property name="CheckDuplicateLabel" type="integer" rid="177">
+      <description>CheckDuplicateLabel</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600029"/>
+      <attribute name="INF_SUB_TYPE" intValue="3"/>
+    </property>
+    <property name="CheckColon" type="integer" rid="178">
+      <description>CheckColon</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600029"/>
+      <attribute name="INF_SUB_TYPE" intValue="4"/>
+    </property>
+    <inheritedCategory name="PSoft_Object"/>
+  </category>
+  <category name="PSoft_StyleSheets" rid="30">
+    <description>PeopleSoft StyleSheets</description>
+
+    <property name="StyleSheetType" type="integer" rid="179">
+      <description>StyleSheetType</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600030"/>
+      <attribute name="INF_SUB_TYPE" intValue="0"/>
+    </property>
+    <property name="StyleSheetClass" type="integer" rid="180">
+      <description>StyleSheetClass</description>
+      <attribute name="ACCESS_APPVIEW" intValue="1"/>
+      <attribute name="ACCESS_CVS" intValue="1"/>
+      <attribute name="ACCESS_HTML" intValue="1"/>
+      <attribute name="INF_TYPE" intValue="1600030"/>
+      <attribute name="INF_SUB_TYPE" intValue="1"/>
+    </property>
+    <inheritedCategory name="PSoft_MainObject"/>
+  </category>
+
+<!-- Types --> 
+  <type name="PeopleSoftProject" rid="3">
+    <description>PeopleSoft Project</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="APM PeopleSoft Module"/>
+    <inheritedCategory name="UAProject"/>
+  </type>
+  <type name="PeopleSoft_SUBSET" rid="4">
+    <description>PeopleSoft Subset</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="APM PeopleSoft Module"/>
+    <inheritedCategory name="PROJECT_SUBSET"/>
+  </type>
+  <type name="EnlightenPeopleSoft" rid="5">
+    <description>PeopleSoft</description>
+  </type>
+  <type name="PSoft_Environment" rid="6">
+    <description>PeopleSoft Environment</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="EnlightenBrowserRoot"/>
+    <inheritedCategory name="CAST_DevelopmentVisible"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+  </type>
+  <type name="PSoft_Module" rid="7">
+    <description>PeopleSoft Module</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+  </type>
+  <type name="PSoftDisplayType" rid="8">
+    <description>PeopleSoft Display Type</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <tree parent="PSoft_Environment" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordTable" rid="100">
+    <description>PeopleSoft RecordTable</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordView" rid="101">
+    <description>PeopleSoft RecordView</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <inheritedCategory name="PSoft_SQLDefinitions"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordDerived" rid="102">
+    <description>PeopleSoft RecordDerived</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordSub" rid="103">
+    <description>PeopleSoft RecordSub</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordDynamic" rid="104">
+    <description>PeopleSoft RecordDynamic</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <inheritedCategory name="PSoft_SQLDefinitions"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordQuery" rid="105">
+    <description>PeopleSoft RecordQuery</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordTemp" rid="106">
+    <description>PeopleSoft RecordTemp</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Records"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordFields" rid="107">
+    <description>PeopleSoft RecordField</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft RecordField"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_RecordsFieldIndex"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_RecordTable" category="amtParentship"/>
+    <tree parent="PSoft_RecordView" category="amtParentship"/>
+    <tree parent="PSoft_RecordDerived" category="amtParentship"/>
+    <tree parent="PSoft_RecordSub" category="amtParentship"/>
+    <tree parent="PSoft_RecordDynamic" category="amtParentship"/>
+    <tree parent="PSoft_RecordQuery" category="amtParentship"/>
+    <tree parent="PSoft_RecordTemp" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordIndex" rid="108">
+    <description>PeopleSoft RecordIndex</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft RecordIndex"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_RecordsFieldIndex"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_RecordTable" category="amtParentship"/>
+    <tree parent="PSoft_RecordView" category="amtParentship"/>
+    <tree parent="PSoft_RecordDerived" category="amtParentship"/>
+    <tree parent="PSoft_RecordSub" category="amtParentship"/>
+    <tree parent="PSoft_RecordDynamic" category="amtParentship"/>
+    <tree parent="PSoft_RecordQuery" category="amtParentship"/>
+    <tree parent="PSoft_RecordTemp" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordFieldDBs" rid="109">
+    <description>PeopleSoft RecordFieldDB</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft RecordFieldDB"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_RecordsFieldIndex"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_RecordTable" category="amtParentship"/>
+    <tree parent="PSoft_RecordView" category="amtParentship"/>
+    <tree parent="PSoft_RecordDerived" category="amtParentship"/>
+    <tree parent="PSoft_RecordSub" category="amtParentship"/>
+    <tree parent="PSoft_RecordDynamic" category="amtParentship"/>
+    <tree parent="PSoft_RecordQuery" category="amtParentship"/>
+    <tree parent="PSoft_RecordTemp" category="amtParentship"/>
+  </type>
+  <type name="PSoft_DBField" rid="120">
+    <description>PeopleSoft DBField</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Fields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Field_LabelItem" rid="121">
+    <description>PeopleSoft Field Label Item</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Field Label Item"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_FieldsObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_DBField" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Field_Format" rid="130">
+    <description>PeopleSoft Field Format</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Field_XLATITEM" rid="140">
+    <description>PeopleSoft Field XLAT Item</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Field XLAT Item"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_FieldsObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_DBField" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Page0" rid="150">
+    <description>PeopleSoft Page</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Pages"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Page1" rid="151">
+    <description>PeopleSoft SubPage</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Pages"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Page2" rid="152">
+    <description>PeopleSoft SecondaryPage</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Pages"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageField0" rid="153">
+    <description>PeopleSoft Page Field0</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Page0" category="amtParentship"/>
+    <tree parent="PSoft_Page1" category="amtParentship"/>
+    <tree parent="PSoft_Page2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageFieldLevel1" rid="154">
+    <description>PeopleSoft Page Field Level1</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Page0" category="amtParentship"/>
+    <tree parent="PSoft_Page1" category="amtParentship"/>
+    <tree parent="PSoft_Page2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageField1" rid="155">
+    <description>PeopleSoft Page Field1</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PageFieldLevel1" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageFieldLevel2" rid="156">
+    <description>PeopleSoft Page Field Level2</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PageFieldLevel1" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageField2" rid="157">
+    <description>PeopleSoft Page Field2</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PageFieldLevel2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageFieldLevel3" rid="158">
+    <description>PeopleSoft Page Field Level3</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PageFieldLevel2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageField3" rid="159">
+    <description>PeopleSoft Page Field3</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_PageFields"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PageFieldLevel3" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Menu" rid="160">
+    <description>PeopleSoft Menu</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Menus"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MenuPopup" rid="161">
+    <description>PeopleSoft Menu Popup</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Menus"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MenuBar" rid="162">
+    <description>PeopleSoft Menu Bar</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Menu" category="amtParentship"/>
+    <tree parent="PSoft_MenuPopup" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MenuItem" rid="163">
+    <description>PeopleSoft Menu Item</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_MenuBar" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Component" rid="170">
+    <description>PeopleSoft Component</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Components"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentRecord" rid="171">
+    <description>PeopleSoft Component Record</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Component Record"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Component" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentRecordField" rid="172">
+    <description>PeopleSoft Component Record Field</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentRecord" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentItem" rid="174">
+    <description>PeopleSoft Component Item</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Component" category="amtParentship"/>
+  </type>
+  <type name="PSoft_RecordFieldEvent" rid="180">
+    <description>PeopleSoft Record Field Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_RecordFields" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MenuEvent" rid="190">
+    <description>PeopleSoft Menu Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_MenuItem" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Query" rid="200">
+    <description>PeopleSoft Query</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_BusinessProcess" rid="270">
+    <description>PeopleSoft BusinessProcess</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_BusProcItem" rid="271">
+    <description>PeopleSoft BusinessProcessItem</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft BusinessProcessItem"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_BusinessProcess" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Activity" rid="280">
+    <description>PeopleSoft Activity</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivityStep" rid="281">
+    <description>PeopleSoft ActivityStep</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivityStep"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Activity" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivityEvent" rid="282">
+    <description>PeopleSoft ActivityEvent</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivityEvent"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Activity" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivityWorklist" rid="284">
+    <description>PeopleSoft ActivityWorklist</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivityWorklist"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ActivityEvent" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivityEmail" rid="285">
+    <description>PeopleSoft ActivityEmail</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivityEmail"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ActivityEvent" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivityReport" rid="286">
+    <description>PeopleSoft ActivityReport</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivityReport"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Activity" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ActivitySchedule" rid="287">
+    <description>PeopleSoft ActivitySchedule</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft ActivitySchedule"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Activity" category="amtParentship"/>
+  </type>
+  <type name="PSoft_User" rid="290">
+    <description>PeopleSoft User</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Users"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Role" rid="291">
+    <description>PeopleSoft Role</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Users"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Process" rid="300">
+    <description>PeopleSoft Process</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ProcessGroup" rid="301">
+    <description>PeopleSoft ProcessGroup</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ProcessJob" rid="330">
+    <description>PeopleSoft ProcessJob</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MessageSet" rid="350">
+    <description>PeopleSoft Message Set</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MessageCatalog" rid="351">
+    <description>PeopleSoft Message Catalog</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_MessageSet" category="amtParentship"/>
+  </type>
+  <type name="PSoft_SQL" rid="400">
+    <description>PeopleSoft SQL</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <inheritedCategory name="PSoft_SQLDefinitions"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_FileLayout" rid="410">
+    <description>PeopleSoft File Layout</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterface" rid="420">
+    <description>PeopleSoft Component Interface</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceGetKey" rid="421">
+    <description>PeopleSoft CI GetKey</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI GetKey"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceCreateKey" rid="422">
+    <description>PeopleSoft CI CreateKey</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI CreateKey"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceFindKey" rid="423">
+    <description>PeopleSoft CI FindKey</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI FindKey"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceCollection1" rid="424">
+    <description>PeopleSoft CI Collection Level 1</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Collection Level 1"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceCollection2" rid="425">
+    <description>PeopleSoft CI Collection Level 2</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Collection Level 2"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceCollection3" rid="426">
+    <description>PeopleSoft CI Collection Level 3</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Collection Level 3"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceProp0" rid="427">
+    <description>PeopleSoft CI Property Level 0</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 0"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceUserProp0" rid="428">
+    <description>PeopleSoft CI User Property Level 0</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI User Property Level 0"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEStandard" rid="430">
+    <description>PeopleSoft Application Engine Standard</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ApplicationEngines"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEUpgradeOnly" rid="431">
+    <description>PeopleSoft Application Engine Ugdrade Only</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ApplicationEngines"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEImportOnly" rid="432">
+    <description>PeopleSoft Application Engine Import Only</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ApplicationEngines"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEDeamonOnly" rid="433">
+    <description>PeopleSoft Application Engine Deamon Only</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ApplicationEngines"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AETransformOnly" rid="434">
+    <description>PeopleSoft Application Engine Transform Only</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_ApplicationEngines"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AESection" rid="440">
+    <description>PeopleSoft Application Engine Section</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStandard" category="amtParentship"/>
+    <tree parent="PSoft_AEUpgradeOnly" category="amtParentship"/>
+    <tree parent="PSoft_AEImportOnly" category="amtParentship"/>
+    <tree parent="PSoft_AEDeamonOnly" category="amtParentship"/>
+    <tree parent="PSoft_AETransformOnly" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AESectionMarket" rid="441">
+    <description>PeopleSoft Application Engine Section Market</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AESection" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEStep" rid="442">
+    <description>PeopleSoft Application Engine Step</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AESectionMarket" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEActionCall" rid="443">
+    <description>PeopleSoft Application Engine Action Call</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStep" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEActionXSLT" rid="444">
+    <description>PeopleSoft Application Engine Action XSLT</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStep" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEActionMessage" rid="445">
+    <description>PeopleSoft Application Engine Action Message</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStep" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEActionSQL" rid="446">
+    <description>PeopleSoft Application Engine Action SQL</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="PSoft_SQLDefinitions"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStep" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AEActionP" rid="447">
+    <description>PeopleSoft Application Engine Action Peoplecode</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AEStep" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MessageNode" rid="450">
+    <description>PeopleSoft Message Node</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MsgChannel" rid="460">
+    <description>PeopleSoft Message Channel</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Message" rid="470">
+    <description>PeopleSoft Message</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MsgSubscription" rid="471">
+    <description>PeopleSoft Message Subscription</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Message" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MessageEvent" rid="490">
+    <description>PeopleSoft Message Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Message" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_SubscriptionEvent" rid="500">
+    <description>PeopleSoft Subscription Event</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Subscription Event"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_MsgSubscription" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_CompInterfaceEvent" rid="520">
+    <description>PeopleSoft CompInterface Event</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CompInterface Event"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterface" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceProp1" rid="521">
+    <description>PeopleSoft CI Property Level 1</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 1"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection1" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceUserProp1" rid="522">
+    <description>PeopleSoft CI User Property Level 1</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI User Property Level 1"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection1" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceProp2" rid="523">
+    <description>PeopleSoft CI Property Level 2</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 2"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceUserProp2" rid="524">
+    <description>PeopleSoft CI User Property Level 2</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI User Property Level 2"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection2" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceProp3" rid="525">
+    <description>PeopleSoft CI Property Level 3</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 3"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection3" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentInterfaceUserProp3" rid="526">
+    <description>PeopleSoft CI User Property Level 3</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI User Property Level 3"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceCollection3" category="amtParentship"/>
+  </type>
+  <type name="PSoft_CompIntPropEvent1" rid="527">
+    <description>PeopleSoft CI Property Level 0  Event</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 0  Event"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceProp0" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_CompIntPropEvent2" rid="528">
+    <description>PeopleSoft CI Property Level 1  Event</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 1  Event"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceProp1" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_CompIntPropEvent3" rid="529">
+    <description>PeopleSoft CI Property Level 2  Event</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft CI Property Level 2  Event"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentInterfaceProp2" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PageEvent" rid="540">
+    <description>PeopleSoft Page Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Page0" category="amtParentship"/>
+    <tree parent="PSoft_Page1" category="amtParentship"/>
+    <tree parent="PSoft_Page2" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentEvent" rid="560">
+    <description>PeopleSoft Component Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Component" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentRecordEvent" rid="570">
+    <description>PeopleSoft ComponentRecord Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentRecord" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_ComponentRecordFieldEvent" rid="580">
+    <description>PeopleSoft ComponentRecordField Event</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeEvent"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_ComponentRecordField" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_StyleSheet" rid="600">
+    <description>PeopleSoft StyleSheet</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_StyleSheets"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_HTML" rid="610">
+    <description>PeopleSoft HTML</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PermissionList" rid="620">
+    <description>PeopleSoft Permission List</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthItem" rid="621">
+    <description>PeopleSoft Authentication Item</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Item"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthBusComp" rid="622">
+    <description>PeopleSoft Permission Component Interface</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Permission Component Interface"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthCnhlMon" rid="623">
+    <description>PeopleSoft Authentication CnhlMon</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication CnhlMon"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthWS" rid="624">
+    <description>PeopleSoft Authentication WebService</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication WebService"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthQueueMon" rid="625">
+    <description>PeopleSoft Authentication Queue Monitor</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Queue Monitor"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthOptn" rid="626">
+    <description>PeopleSoft Authentication Option</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Option"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthCube" rid="627">
+    <description>PeopleSoft Authentication Cube</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Cube"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthMP" rid="628">
+    <description>PeopleSoft Authentication Mobile Page</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Mobile Page"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthPrcs" rid="629">
+    <description>PeopleSoft Authentication Process</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Authentication Process"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PermissionList" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AuthBusCompAction" rid="630">
+    <description>PeopleSoft Permission CI Method</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_Object"/>
+    <inheritedCategory name="PSoft_ObjectProp"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AuthBusComp" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PortalRegistry" rid="640">
+    <description>PeopleSoft Portal Registry</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PortalFolder" rid="650">
+    <description>PeopleSoft Portal Folder</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Portal Folder"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PortalRegistry" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PortalContentReference" rid="651">
+    <description>PeopleSoft Portal Content Reference</description>
+    <attribute name="GROUP" intValue="0"/>
+    <attribute name="ORACLE_NAME" stringValue="PeopleSoft Portal Content Reference"/>
+    <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_PortalFolder" category="amtParentship"/>
+  </type>
+  <type name="PSoft_URL" rid="660">
+    <description>PeopleSoft URL</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AppPackage" rid="670">
+    <description>PeopleSoft Application Package</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AppClass" rid="671">
+    <description>PeopleSoft Application Class</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <inheritedCategory name="PSoft_PCodeClass"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AppPackage" category="amtParentship"/>
+    <tree parent="PSoft_Package" category="amtParentship"/>
+    <tree parent="PSoft_SubPackage" category="amtParentship"/>
+    <tree parent="sourceFile" category="amtParentship"/>
+  </type>
+  <type name="PSoft_AppMethod" rid="673">
+    <description>PeopleSoft Application Method</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeMethods"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AppClass" category="amtParentship"/>
+  </type>
+  <type name="PSoft_Package" rid="674">
+    <description>PeopleSoft Package</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_AppPackage" category="amtParentship"/>
+  </type>
+  <type name="PSoft_SubPackage" rid="675">
+    <description>PeopleSoft SubPackage</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_Package" category="amtParentship"/>
+  </type>
+  <type name="PSoft_MobilePage" rid="740">
+    <description>PeopleSoft Mobile Page</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="PSoft_MainObject"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoftDisplayType" category="amtParentship"/>
+  </type>
+  <type name="PSoft_PeopleCodeFunction" rid="999">
+    <description>PeopleSoft PeopleCodeFunction</description>
+    <inheritedCategory name="PeopleSoft"/>
+    <inheritedCategory name="UAObject"/>
+    <inheritedCategory name="METRICABLE"/>
+    <inheritedCategory name="APM PeopleSoft Artifacts"/>
+    <inheritedCategory name="PSoft_PCodeFunctions"/>
+    <tree parent="EnlightenPeopleSoft" category="EnlightenTree"/>
+    <tree parent="PSoft_RecordFieldEvent" category="amtParentship"/>
+    <tree parent="PSoft_MenuEvent" category="amtParentship"/>
+    <tree parent="PSoft_MessageEvent" category="amtParentship"/>
+    <tree parent="PSoft_SubscriptionEvent" category="amtParentship"/>
+    <tree parent="PSoft_CompInterfaceEvent" category="amtParentship"/>
+    <tree parent="PSoft_PageEvent" category="amtParentship"/>
+    <tree parent="PSoft_ComponentEvent" category="amtParentship"/>
+    <tree parent="PSoft_ComponentRecordEvent" category="amtParentship"/>
+    <tree parent="PSoft_ComponentRecordFieldEvent" category="amtParentship"/>
+  </type>
+
+</metaModel>
