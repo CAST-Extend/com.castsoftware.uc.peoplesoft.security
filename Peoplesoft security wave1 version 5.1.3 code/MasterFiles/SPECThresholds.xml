@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" thresholdToGet1="90.0" thresholdToGet2="95.0" thresholdToGet3="99.0" thresholdToGet4="100.0" />
+  <metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" thresholdToGet1="90.0" thresholdToGet2="95.0" thresholdToGet3="99.0" thresholdToGet4="100.0" />
+  <metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" thresholdToGet1="90.0" thresholdToGet2="95.0" thresholdToGet3="99.0" thresholdToGet4="100.0" />
+  <metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" thresholdToGet1="90.0" thresholdToGet2="95.0" thresholdToGet3="99.0" thresholdToGet4="100.0" />
+  <metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" thresholdToGet1="90.0" thresholdToGet2="95.0" thresholdToGet3="99.0" thresholdToGet4="100.0" />
+</root>

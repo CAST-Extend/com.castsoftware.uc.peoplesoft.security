@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" filter="1600000" filterLabel="NO LABEL" />
+  <metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" filter="1600000" filterLabel="NO LABEL" />
+  <metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" filter="1600000" filterLabel="NO LABEL" />
+  <metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" filter="1600000" filterLabel="NO LABEL" />
+  <metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" filter="1600000" filterLabel="NO LABEL" />  
+</root>

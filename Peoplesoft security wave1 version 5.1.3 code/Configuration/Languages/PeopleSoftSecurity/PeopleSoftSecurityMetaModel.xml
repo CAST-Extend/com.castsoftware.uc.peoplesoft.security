@@ -1,0 +1,56 @@
+<metaModel file_level="client" file_no="104">
+	<!-- ID range is 2104000 to 2104999 -->
+	
+<!-- Topmost category from which all PeopleSoft objects inherit from (rid="10")--> 
+	<partial_category name="PSoft_Object">
+		<inheritedCategory name="Psft_Security_CustomMetrics"/>
+	</partial_category>
+	
+	<category name="Psft_Security_CustomMetrics" id="2104000">
+		<description>Custom category for additional properties for Psft Security</description>
+	   	<property name="Pcode_SQL_Injection" type="integer" id="2104001">
+			<description>Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )</description>
+			<attribute name="INF_TYPE" intValue="2104000"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	  	</property>
+	  	<property name="Pcode_XSS_Injection" type="integer" id="2104002">
+			<description>Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )</description>
+			<attribute name="INF_TYPE" intValue="2104000"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+		</property>
+		
+		<property name="Pcode_CWE73violation" type="integer" id="2104003">
+			<description>Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )</description>
+			<attribute name="INF_TYPE" intValue="2104000"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+		</property>
+		
+		<property name="Pcode_CWE78violation" type="integer" id="2104004">
+			<description>Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )</description>
+			<attribute name="INF_TYPE" intValue="2104000"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+		</property>
+		
+		<property name="Pcode_CWE117violation" type="integer" id="2104005">
+			<description>Avoid Log Forging injection vulnerabilities in PeopleCode ( CWE-117 )</description>
+			<attribute name="INF_TYPE" intValue="2104000"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+		</property>
+
+	</category>
+</metaModel>

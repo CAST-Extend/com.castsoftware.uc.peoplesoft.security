@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="associatedValueName">
+		<english>Number of violation occurrences</english>
+		<french>Number of violation occurrences</french>
+		<german>Number of violation occurrences</german>
+		<italian>Number of violation occurrences</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="description">
+		<english>This quality rule reports PeopleCode artifacts calling both user input functions, SQL target functions, and no vetted neutralization.</english>
+		<french>This quality rule reports PeopleCode artifacts calling both user input functions, SQL target functions, and no vetted neutralization.</french>
+		<german>This quality rule reports PeopleCode artifacts calling both user input functions, SQL target functions, and no vetted neutralization.</german>
+		<italian>This quality rule reports PeopleCode artifacts calling both user input functions, SQL target functions, and no vetted neutralization.</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="name">
+		<english>Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )</english>
+		<french>Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )</french>
+		<german>Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )</german>
+		<italian>Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="output">
+		<english>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</english>
+		<french>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</french>
+		<german>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</german>
+		<italian>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="rationale">
+		<english>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</english>
+		<french>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</french>
+		<german>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</german>
+		<italian>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="reference">
+		<english>http://cwe.mitre.org/data/definitions/89.html
+CISQ rule: ASCSM-CWE-89.</english>
+		<french>http://cwe.mitre.org/data/definitions/89.html
+CISQ rule: ASCSM-CWE-89.</french>
+		<german>http://cwe.mitre.org/data/definitions/89.html
+CISQ rule: ASCSM-CWE-89.</german>
+		<italian>http://cwe.mitre.org/data/definitions/89.html
+CISQ rule: ASCSM-CWE-89.</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="remediation">
+		<english>Code the appropriate input validation as close as possible to the user input call.</english>
+		<french>Code the appropriate input validation as close as possible to the user input call.</french>
+		<german>Code the appropriate input validation as close as possible to the user input call.</german>
+		<italian>Code the appropriate input validation as close as possible to the user input call.</italian>
+	</metric>
+	<metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" section="total">
+		<english>Number of PeopleCode artifacts (Events, Methods and Functions)</english>
+		<french>Number of PeopleCode artifacts (Events, Methods and Functions)</french>
+		<german>Number of PeopleCode artifacts (Events, Methods and Functions)</german>
+		<italian>Number of PeopleCode artifacts (Events, Methods and Functions)</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="associatedValueName">
+		<english>Number of violation occurrences</english>
+		<french>Number of violation occurrences</french>
+		<german>Number of violation occurrences</german>
+		<italian>Number of violation occurrences</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="description">
+		<english>This quality rule reports PeopleCode artifacts calling both user input functions, XSS target functions, and no vetted neutralization.</english>
+		<french>This quality rule reports PeopleCode artifacts calling both user input functions, XSS target functions, and no vetted neutralization.</french>
+		<german>This quality rule reports PeopleCode artifacts calling both user input functions, XSS target functions, and no vetted neutralization.</german>
+		<italian>This quality rule reports PeopleCode artifacts calling both user input functions, XSS target functions, and no vetted neutralization.</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="name">
+		<english>Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )</english>
+		<french>Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )</french>
+		<german>Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )</german>
+		<italian>Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="output">
+		<english>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</english>
+		<french>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</french>
+		<german>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</german>
+		<italian>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="rationale">
+		<english>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</english>
+		<french>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</french>
+		<german>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</german>
+		<italian>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="reference">
+		<english>http://cwe.mitre.org/data/definitions/79.html
+CISQ rule: ASCSM-CWE-79.</english>
+		<french>http://cwe.mitre.org/data/definitions/79.html
+CISQ rule: ASCSM-CWE-79.</french>
+		<german>http://cwe.mitre.org/data/definitions/79.html
+CISQ rule: ASCSM-CWE-79.</german>
+		<italian>http://cwe.mitre.org/data/definitions/79.html
+CISQ rule: ASCSM-CWE-79.</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="remediation">
+		<english>Code the appropriate input validation as close as possible to the user input call.</english>
+		<french>Code the appropriate input validation as close as possible to the user input call.</french>
+		<german>Code the appropriate input validation as close as possible to the user input call.</german>
+		<italian>Code the appropriate input validation as close as possible to the user input call.</italian>
+	</metric>
+	<metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" section="total">
+		<english>Number of PeopleCode artifacts (Events, Methods and Functions)</english>
+		<french>Number of PeopleCode artifacts (Events, Methods and Functions)</french>
+		<german>Number of PeopleCode artifacts (Events, Methods and Functions)</german>
+		<italian>Number of PeopleCode artifacts (Events, Methods and Functions)</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="associatedValueName">
+		<english>Number of violation occurrences</english>
+		<french>Number of violation occurrences</french>
+		<german>Number of violation occurrences</german>
+		<italian>Number of violation occurrences</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="description">
+		<english>This quality rule reports PeopleCode artifacts calling both user input functions and File opening functions.</english>
+		<french>This quality rule reports PeopleCode artifacts calling both user input functions and File opening functions.</french>
+		<german>This quality rule reports PeopleCode artifacts calling both user input functions and File opening functions.</german>
+		<italian>This quality rule reports PeopleCode artifacts calling both user input functions and File opening functions.</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="name">
+		<english>Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )</english>
+		<french>Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )</french>
+		<german>Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )</german>
+		<italian>Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="output">
+		<english>List all methods that both acquire user input and open files.
+It provides the following information: - Artifact full name</english>
+		<french>List all methods that both acquire user input and open files.
+It provides the following information: - Artifact full name</french>
+		<german>List all methods that both acquire user input and open files.
+It provides the following information: - Artifact full name</german>
+		<italian>List all methods that both acquire user input and open files.
+It provides the following information: - Artifact full name</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="rationale">
+		<english>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</english>
+		<french>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</french>
+		<german>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</german>
+		<italian>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="reference">
+		<english>CWE-73: External Control of File Name or Path
+https://cwe.mitre.org/data/definitions/73.html</english>
+		<french>CWE-73: External Control of File Name or Path
+https://cwe.mitre.org/data/definitions/73.html</french>
+		<german>CWE-73: External Control of File Name or Path
+https://cwe.mitre.org/data/definitions/73.html</german>
+		<italian>CWE-73: External Control of File Name or Path
+https://cwe.mitre.org/data/definitions/73.html</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="remediation">
+		<english>Do not forge part of the file path with user input.</english>
+		<french>Do not forge part of the file path with user input.</french>
+		<german>Do not forge part of the file path with user input.</german>
+		<italian>Do not forge part of the file path with user input.</italian>
+	</metric>
+	<metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" section="total">
+		<english>Number of PeopleCode artifacts (Events, Methods and Functions)</english>
+		<french>Number of PeopleCode artifacts (Events, Methods and Functions)</french>
+		<german>Number of PeopleCode artifacts (Events, Methods and Functions)</german>
+		<italian>Number of PeopleCode artifacts (Events, Methods and Functions)</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="associatedValueName">
+		<english>Number of violation occurrences</english>
+		<french>Number of violation occurrences</french>
+		<german>Number of violation occurrences</german>
+		<italian>Number of violation occurrences</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="description">
+		<english>This quality rule reports PeopleCode artifacts calling both user input functions and OS command functions.</english>
+		<french>This quality rule reports PeopleCode artifacts calling both user input functions and OS command functions.</french>
+		<german>This quality rule reports PeopleCode artifacts calling both user input functions and OS command functions.</german>
+		<italian>This quality rule reports PeopleCode artifacts calling both user input functions and OS command functions.</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="name">
+		<english>Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )</english>
+		<french>Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )</french>
+		<german>Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )</german>
+		<italian>Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="output">
+		<english>List all methods that both acquire user input and call OS command functions
+It provides the following information: - Artifact full name</english>
+		<french>List all methods that both acquire user input and call OS command functions
+It provides the following information: - Artifact full name</french>
+		<german>List all methods that both acquire user input and call OS command functions
+It provides the following information: - Artifact full name</german>
+		<italian>List all methods that both acquire user input and call OS command functions
+It provides the following information: - Artifact full name</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="rationale">
+		<english>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</english>
+		<french>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</french>
+		<german>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</german>
+		<italian>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="reference">
+		<english>CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+https://cwe.mitre.org/data/definitions/78.html</english>
+		<french>CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+https://cwe.mitre.org/data/definitions/78.html</french>
+		<german>CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+https://cwe.mitre.org/data/definitions/78.html</german>
+		<italian>CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+https://cwe.mitre.org/data/definitions/78.html</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="remediation">
+		<english>Do not forge part of an OS command with user input.</english>
+		<french>Do not forge part of an OS command with user input.</french>
+		<german>Do not forge part of an OS command with user input.</german>
+		<italian>Do not forge part of an OS command with user input.</italian>
+	</metric>
+	<metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" section="total">
+		<english>Number of PeopleCode artifacts (Events, Methods and Functions)</english>
+		<french>Number of PeopleCode artifacts (Events, Methods and Functions)</french>
+		<german>Number of PeopleCode artifacts (Events, Methods and Functions)</german>
+		<italian>Number of PeopleCode artifacts (Events, Methods and Functions)</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="associatedValueName">
+		<english>Number of violation occurrences</english>
+		<french>Number of violation occurrences</french>
+		<german>Number of violation occurrences</german>
+		<italian>Number of violation occurrences</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="description">
+		<english>This quality rule reports PeopleCode artifacts calling both user input functions, Logging functions, and no vetted neutralization.</english>
+		<french>This quality rule reports PeopleCode artifacts calling both user input functions, Logging functions, and no vetted neutralization.</french>
+		<german>This quality rule reports PeopleCode artifacts calling both user input functions, Logging functions, and no vetted neutralization.</german>
+		<italian>This quality rule reports PeopleCode artifacts calling both user input functions, Logging functions, and no vetted neutralization.</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="name">
+		<english>Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )</english>
+		<french>Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )</french>
+		<german>Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )</german>
+		<italian>Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="output">
+		<english>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</english>
+		<french>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</french>
+		<german>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</german>
+		<italian>List all methods that miss calling the required input validation calls.
+It provides the following information: - Artifact full name</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="rationale">
+		<english>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</english>
+		<french>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</french>
+		<german>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</german>
+		<italian>In web based applications, the validation of all user input is critical to avoid major security problems that would come from the Injection flaws.
+To avoid the creation of Injection flaws, the Open Web Application Security Project (OWASP) recommends the validation of all user input :
+"Use a standard input validation mechanism to validate all input data for length, type, syntax, and business rules before accepting the data to be displayed or stored. Use an "accept known good" validation strategy. Reject invalid input rather than attempting to sanitize potentially hostile data. Do not forget that error messages might also include invalid data"
+The Common Weakness Enumeration defines Improper Input Validation ( CWE-20 ) as follows :
+"When software does not validate input properly, an attacker is able to craft the input in a form that is not expected by the rest of the application. This will lead to parts of the system receiving unintended input, which may result in altered control flow, arbitrary control of a resource, or arbitrary code execution."</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="reference">
+		<english>CWE-117: Improper Output Neutralization for Logs
+https://cwe.mitre.org/data/definitions/117.html</english>
+		<french>CWE-117: Improper Output Neutralization for Logs
+https://cwe.mitre.org/data/definitions/117.html</french>
+		<german>CWE-117: Improper Output Neutralization for Logs
+https://cwe.mitre.org/data/definitions/117.html</german>
+		<italian>CWE-117: Improper Output Neutralization for Logs
+https://cwe.mitre.org/data/definitions/117.html</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="remediation">
+		<english>Code the appropriate input validation as close as possible to the user input call.</english>
+		<french>Code the appropriate input validation as close as possible to the user input call.</french>
+		<german>Code the appropriate input validation as close as possible to the user input call.</german>
+		<italian>Code the appropriate input validation as close as possible to the user input call.</italian>
+	</metric>
+	<metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" section="total">
+		<english>Number of PeopleCode artifacts (Events, Methods and Functions)</english>
+		<french>Number of PeopleCode artifacts (Events, Methods and Functions)</french>
+		<german>Number of PeopleCode artifacts (Events, Methods and Functions)</german>
+		<italian>Number of PeopleCode artifacts (Events, Methods and Functions)</italian>
+	</metric>
+</root>

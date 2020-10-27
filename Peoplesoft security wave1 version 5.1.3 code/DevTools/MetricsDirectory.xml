@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <metric id="-1" type="N/A" originalName="N/A" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="550" type="quality-rule" originalName="Class naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="552" type="quality-rule" originalName="Method naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="554" type="quality-rule" originalName="Constant naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="556" type="quality-rule" originalName="Macros naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="558" type="quality-rule" originalName="Data Members naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="562" type="quality-rule" originalName="File naming convention - embedded Class" active="true" detached="false" ignored="false"/>
+  <metric id="564" type="quality-rule" originalName="Avoid including files other than header files" active="true" detached="false" ignored="false"/>
+  <metric id="566" type="quality-rule" originalName="Avoid large Classes - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="568" type="quality-rule" originalName="Avoid large Classes - too many Data Members" active="true" detached="false" ignored="false"/>
+  <metric id="570" type="quality-rule" originalName="Avoid large Interfaces - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="576" type="quality-rule" originalName="Avoid large Classes - too many Constructors" active="true" detached="false" ignored="false"/>
+  <metric id="578" type="quality-rule" originalName="Avoid Classes with multiple inheritance" active="true" detached="false" ignored="false"/>
+  <metric id="580" type="quality-rule" originalName="Avoid using Structures" active="true" detached="false" ignored="false"/>
+  <metric id="584" type="quality-rule" originalName="Avoid Classes with at least one virtual Method and without a virtual Destructor" active="true" detached="false" ignored="false"/>
+  <metric id="586" type="quality-rule" originalName="Avoid inline Constructors and Destructors" active="true" detached="true" ignored="false"/>
+  <metric id="588" type="quality-rule" originalName="Avoid using Global Variables" active="true" detached="false" ignored="false"/>
+  <metric id="590" type="quality-rule" originalName="Avoid using global objects in constructors and destructors" active="true" detached="false" ignored="false"/>
+  <metric id="592" type="quality-rule" originalName="Avoid Classes using &quot;new&quot; to allocate Instances but not defining a copy Constructor" active="true" detached="false" ignored="false"/>
+  <metric id="610" type="quality-rule" originalName="Avoid header files circular references" active="true" detached="false" ignored="false"/>
+  <metric id="620" type="quality-rule" originalName="Avoid base Classes without virtual Destructors" active="true" detached="false" ignored="false"/>
+  <metric id="628" type="quality-rule" originalName="Avoid invocation of virtual Methods of the declared Class in a Constructor or Destructor" active="true" detached="false" ignored="false"/>
+  <metric id="630" type="quality-rule" originalName="Avoid Data Members that are not Private" active="true" detached="false" ignored="false"/>
+  <metric id="634" type="quality-rule" originalName="Avoid using VARIANT Structures" active="true" detached="false" ignored="false"/>
+  <metric id="678" type="quality-rule" originalName="Never throw an exception from a destructor" active="true" detached="false" ignored="false"/>
+  <metric id="1050" type="quality-rule" originalName="Static Functions naming conventions - case control" active="true" detached="false" ignored="false"/>
+  <metric id="1052" type="quality-rule" originalName="Macros naming conventions - case control" active="true" detached="false" ignored="false"/>
+  <metric id="1054" type="quality-rule" originalName="Types naming conventions - suffix control" active="true" detached="false" ignored="false"/>
+  <metric id="1058" type="quality-rule" originalName="Avoid large Files - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="1060" type="quality-rule" originalName="Avoid large Macros - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="1066" type="quality-rule" originalName="Avoid having implementation files not including a header file with the same name" active="true" detached="false" ignored="false"/>
+  <metric id="1070" type="quality-rule" originalName="Avoid header files circular references" active="true" detached="false" ignored="false"/>
+  <metric id="1072" type="quality-rule" originalName="Avoid using memory management Functions (free/malloc/realloc)" active="true" detached="false" ignored="false"/>
+  <metric id="1074" type="quality-rule" originalName="Avoid using signals management Functions" active="true" detached="false" ignored="false"/>
+  <metric id="1078" type="quality-rule" originalName="Avoid undocumented Header files" active="true" detached="false" ignored="false"/>
+  <metric id="1082" type="quality-rule" originalName="Avoid Header files with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="1084" type="quality-rule" originalName="Non Static Functions naming conventions - case control" active="true" detached="false" ignored="false"/>
+  <metric id="1090" type="quality-rule" originalName="Avoid unreferenced Files" active="true" detached="false" ignored="false"/>
+  <metric id="1092" type="quality-rule" originalName="Avoid undocumented Implementation files" active="true" detached="false" ignored="false"/>
+  <metric id="1094" type="quality-rule" originalName="Avoid Implementation files with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="1098" type="quality-rule" originalName="Avoid recursive Functions" active="true" detached="true" ignored="false"/>
+  <metric id="1558" type="quality-rule" originalName="Package naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="1560" type="quality-rule" originalName="Package Function naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="1562" type="quality-rule" originalName="Package Stored Procedure naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="1564" type="quality-rule" originalName="Cursor naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="1574" type="quality-rule" originalName="Use at most one statement per line" active="true" detached="false" ignored="false"/>
+  <metric id="1576" type="quality-rule" originalName="Use varchar2 instead of char/varchar" active="true" detached="false" ignored="false"/>
+  <metric id="1578" type="quality-rule" originalName="Avoid using LONG &amp; LONG RAW datatype for table columns" active="true" detached="false" ignored="false"/>
+  <metric id="1580" type="quality-rule" originalName="Avoid using execute immediate" active="true" detached="false" ignored="false"/>
+  <metric id="1582" type="quality-rule" originalName="Avoid large Tables - too many columns" active="true" detached="false" ignored="false"/>
+  <metric id="1588" type="quality-rule" originalName="Use WHEN OTHERS in exception management" active="true" detached="false" ignored="false"/>
+  <metric id="1596" type="quality-rule" originalName="Avoid using &quot;nullable&quot; Columns except in the last position in a Table" active="true" detached="false" ignored="false"/>
+  <metric id="1598" type="quality-rule" originalName="Avoid Rule HINT  /*+ rule */ or --+ rule in PL/SQL code" active="true" detached="false" ignored="false"/>
+  <metric id="1606" type="quality-rule" originalName="Triggers should not directly modify tables, a procedure or function should be used instead" active="true" detached="false" ignored="false"/>
+  <metric id="1608" type="quality-rule" originalName="Avoid cascading Triggers" active="true" detached="false" ignored="false"/>
+  <metric id="1612" type="quality-rule" originalName="DELETED:1612 Avoid undocumented Functions" active="true" detached="true" ignored="false"/>
+  <metric id="1614" type="quality-rule" originalName="DELETED:1614 Avoid undocumented Procedures" active="true" detached="true" ignored="false"/>
+  <metric id="1616" type="quality-rule" originalName="Avoid undocumented Triggers" active="true" detached="true" ignored="false"/>
+  <metric id="1618" type="quality-rule" originalName="DELETED:1618 Avoid Functions with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="1620" type="quality-rule" originalName="DELETED:1620 Avoid Procedures with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="1622" type="quality-rule" originalName="Avoid Triggers with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="1624" type="quality-rule" originalName="DELETED:1624 Avoid undocumented Package Procedures and Functions" active="true" detached="true" ignored="false"/>
+  <metric id="1626" type="quality-rule" originalName="DELETED:1626 Avoid Package Procedures and Functions with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="1634" type="quality-rule" originalName="Avoid unreferenced Tables" active="true" detached="false" ignored="false"/>
+  <metric id="2230" type="quality-rule" originalName="Use of style sheets" active="true" detached="false" ignored="false"/>
+  <metric id="2232" type="quality-rule" originalName="Pages should use error handling page" active="true" detached="false" ignored="false"/>
+  <metric id="2234" type="quality-rule" originalName="Avoid call of JAVA objects" active="true" detached="true" ignored="false"/>
+  <metric id="2236" type="quality-rule" originalName="Avoid use of standard SQL API" active="true" detached="false" ignored="false"/>
+  <metric id="2238" type="quality-rule" originalName="Avoid unreferenced JSPs" active="true" detached="false" ignored="false"/>
+  <metric id="2242" type="quality-rule" originalName="Avoid direct definition of JavaScript Functions in a Web page" active="true" detached="false" ignored="false"/>
+  <metric id="2244" type="quality-rule" originalName="Avoid undocumented Web Server pages" active="true" detached="false" ignored="false"/>
+  <metric id="2248" type="quality-rule" originalName="Avoid Web Server pages having a very low Comment/Code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="2254" type="quality-rule" originalName="Avoid large Page files" active="true" detached="false" ignored="false"/>
+  <metric id="2258" type="quality-rule" originalName="All image files should be in a specific directory" active="false" detached="false" ignored="false"/>
+  <metric id="2260" type="quality-rule" originalName="All script files should be in a specific directory" active="false" detached="false" ignored="false"/>
+  <metric id="2262" type="quality-rule" originalName="All stylesheet files should be in a specific directory" active="false" detached="false" ignored="false"/>
+  <metric id="2264" type="quality-rule" originalName="All page files should be in a specific directory" active="false" detached="false" ignored="false"/>
+  <metric id="2266" type="quality-rule" originalName="Avoid non standard file extensions" active="false" detached="false" ignored="false"/>
+  <metric id="2278" type="quality-rule" originalName="Check the use of &quot;foreach&quot; custom tag library" active="true" detached="false" ignored="false"/>
+  <metric id="2280" type="quality-rule" originalName="Avoid using Document.all collection" active="true" detached="false" ignored="false"/>
+  <metric id="2282" type="quality-rule" originalName="Avoid large Include Files" active="true" detached="false" ignored="false"/>
+  <metric id="2284" type="quality-rule" originalName="Avoid large JSP Pages - too many Scriptlets" active="true" detached="false" ignored="false"/>
+  <metric id="2552" type="quality-rule" originalName="Event naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="2558" type="quality-rule" originalName="Method/Sub naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="2560" type="quality-rule" originalName="Property naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="2562" type="quality-rule" originalName="Avoid long Functions" active="true" detached="false" ignored="false"/>
+  <metric id="2564" type="quality-rule" originalName="Use a single Error Handling Method" active="true" detached="false" ignored="false"/>
+  <metric id="2572" type="quality-rule" originalName="Avoid declaring VB Variables without typing them" active="true" detached="false" ignored="false"/>
+  <metric id="2574" type="quality-rule" originalName="Avoid using global Variables" active="true" detached="false" ignored="false"/>
+  <metric id="2576" type="quality-rule" originalName="Avoid Variables declared as Variants" active="true" detached="false" ignored="false"/>
+  <metric id="2578" type="quality-rule" originalName="Avoid recursive Functions" active="true" detached="true" ignored="false"/>
+  <metric id="2580" type="quality-rule" originalName="Avoid use of Scripting.FileSystemObject" active="true" detached="false" ignored="false"/>
+  <metric id="2582" type="quality-rule" originalName="Use Option Explicit" active="true" detached="false" ignored="false"/>
+  <metric id="2584" type="quality-rule" originalName="Avoid using late binding" active="true" detached="false" ignored="false"/>
+  <metric id="2586" type="quality-rule" originalName="Utilization of &quot;DoEvents&quot; inside a loop" active="true" detached="false" ignored="false"/>
+  <metric id="2588" type="quality-rule" originalName="Avoid declaring Class Variables without declaring access Properties" active="true" detached="false" ignored="false"/>
+  <metric id="2590" type="quality-rule" originalName="Avoid using &quot;On error Resume Next&quot; in the Class event terminate." active="true" detached="false" ignored="false"/>
+  <metric id="2592" type="quality-rule" originalName="Encapsulation compliance" active="true" detached="false" ignored="false"/>
+  <metric id="2616" type="quality-rule" originalName="Avoid undocumented Forms" active="true" detached="false" ignored="false"/>
+  <metric id="2618" type="quality-rule" originalName="Avoid Forms with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="2620" type="quality-rule" originalName="Avoid undocumented Modules" active="true" detached="false" ignored="false"/>
+  <metric id="2622" type="quality-rule" originalName="Avoid Modules with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="2624" type="quality-rule" originalName="Unreferenced Forms" active="true" detached="false" ignored="false"/>
+  <metric id="2626" type="quality-rule" originalName="Unreferenced Modules" active="true" detached="false" ignored="false"/>
+  <metric id="3058" type="quality-rule" originalName="Use of style sheets" active="true" detached="false" ignored="false"/>
+  <metric id="3060" type="quality-rule" originalName="Pages with less than 3 levels of inclusion" active="true" detached="false" ignored="false"/>
+  <metric id="3062" type="quality-rule" originalName="Use of error handling page" active="true" detached="false" ignored="false"/>
+  <metric id="3064" type="quality-rule" originalName="Avoid use of Session variables from Session_OnEnd" active="true" detached="false" ignored="false"/>
+  <metric id="3066" type="quality-rule" originalName="Use of Web Classes" active="true" detached="false" ignored="false"/>
+  <metric id="3070" type="quality-rule" originalName="Avoid non standard file extensions" active="true" detached="false" ignored="false"/>
+  <metric id="3072" type="quality-rule" originalName="Consistent File full name and directory structure" active="true" detached="false" ignored="false"/>
+  <metric id="3074" type="quality-rule" originalName="Index pages and global.asa location in the root directory" active="true" detached="false" ignored="false"/>
+  <metric id="3076" type="quality-rule" originalName="Avoid using more than one scripting language in one page" active="true" detached="false" ignored="false"/>
+  <metric id="3078" type="quality-rule" originalName="Avoid unreferenced code" active="true" detached="false" ignored="false"/>
+  <metric id="3080" type="quality-rule" originalName="Avoid undocumented Pages" active="true" detached="false" ignored="false"/>
+  <metric id="3082" type="quality-rule" originalName="Avoid ASP pages having a very low Comment/Code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="3088" type="quality-rule" originalName="Avoid large Page files" active="true" detached="false" ignored="false"/>
+  <metric id="3102" type="quality-rule" originalName="Avoid using Transactions in an ASP Page" active="true" detached="false" ignored="false"/>
+  <metric id="3148" type="quality-rule" originalName="An include file must contain at most one class definition" active="true" detached="false" ignored="false"/>
+  <metric id="3550" type="quality-rule" originalName="Namespace naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="3554" type="quality-rule" originalName="Interface naming convention - prefix, case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3558" type="quality-rule" originalName="Enumerations naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3560" type="quality-rule" originalName="Enumeration Items naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3562" type="quality-rule" originalName="Private Fields naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3564" type="quality-rule" originalName="Public Fields naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3566" type="quality-rule" originalName="Methods naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3568" type="quality-rule" originalName="Events naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3570" type="quality-rule" originalName="Avoid using Keywords as names" active="true" detached="false" ignored="false"/>
+  <metric id="3572" type="quality-rule" originalName="Controls naming convention - prefix, case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3574" type="quality-rule" originalName="Properties naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="3576" type="quality-rule" originalName="Avoid declaring Public Fields" active="true" detached="false" ignored="false"/>
+  <metric id="3578" type="quality-rule" originalName="Avoid large Classes - too many Constructors" active="true" detached="false" ignored="false"/>
+  <metric id="3580" type="quality-rule" originalName="Avoid large Classes - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="3586" type="quality-rule" originalName="Avoid large Methods - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="3590" type="quality-rule" originalName="Avoid Interface implementation on Structures" active="true" detached="false" ignored="false"/>
+  <metric id="3610" type="quality-rule" originalName="Avoid declaring VB Variables without typing them" active="true" detached="false" ignored="false"/>
+  <metric id="3612" type="quality-rule" originalName="Close SQL connection ASAP" active="true" detached="false" ignored="false"/>
+  <metric id="3614" type="quality-rule" originalName="Avoid using String.Empty for empty string tests" active="true" detached="false" ignored="false"/>
+  <metric id="3616" type="quality-rule" originalName="Data Access must be based on Stored Procedure Calls" active="true" detached="false" ignored="false"/>
+  <metric id="3626" type="quality-rule" originalName="Avoid Interfaces with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="3630" type="quality-rule" originalName="Avoid having Classes implementing too many Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="4056" type="quality-rule" originalName="Avoid recursive Triggers" active="true" detached="false" ignored="false"/>
+  <metric id="4058" type="quality-rule" originalName="Avoid queries using old style join convention  instead of ANSI-Standard joins" active="true" detached="false" ignored="false"/>
+  <metric id="4062" type="quality-rule" originalName="Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction" active="true" detached="false" ignored="false"/>
+  <metric id="4064" type="quality-rule" originalName="Avoid Functions and Procedures doing an Insert, Update, Delete, Create Table or Select without including error management" active="true" detached="false" ignored="false"/>
+  <metric id="4066" type="quality-rule" originalName="Avoid Stored Procedures not returning a status value" active="true" detached="false" ignored="false"/>
+  <metric id="4070" type="quality-rule" originalName="Avoid use of &quot;truncate table&quot;" active="true" detached="false" ignored="false"/>
+  <metric id="4076" type="quality-rule" originalName="Avoid using temporary Objects" active="true" detached="false" ignored="false"/>
+  <metric id="4084" type="quality-rule" originalName="Avoid nested Stored Procedures using temporary Tables" active="true" detached="false" ignored="false"/>
+  <metric id="4120" type="quality-rule" originalName="Avoid undocumented Triggers" active="true" detached="true" ignored="false"/>
+  <metric id="4122" type="quality-rule" originalName="Avoid Triggers with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="4554" type="quality-rule" originalName="Avoid large Classes - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="4556" type="quality-rule" originalName="Avoid large Classes - too many Constructors" active="true" detached="false" ignored="false"/>
+  <metric id="4558" type="quality-rule" originalName="Avoid large Classes - too many Fields" active="true" detached="false" ignored="false"/>
+  <metric id="4560" type="quality-rule" originalName="Avoid large Interfaces - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="4566" type="quality-rule" originalName="Avoid declaring Instance Variables without defined access type" active="true" detached="false" ignored="false"/>
+  <metric id="4568" type="quality-rule" originalName="Avoid declaring Public Instance Variables" active="true" detached="false" ignored="false"/>
+  <metric id="4570" type="quality-rule" originalName="Avoid declaring Non Final Class Variables with Public or Package access type" active="true" detached="false" ignored="false"/>
+  <metric id="4572" type="quality-rule" originalName="Avoid declaring Final Instance Variables that are not dynamically initialized" active="true" detached="false" ignored="false"/>
+  <metric id="4574" type="quality-rule" originalName="Avoid using deprecated objects" active="true" detached="false" ignored="false"/>
+  <metric id="4576" type="quality-rule" originalName="Provide accessors to Private Fields" active="true" detached="false" ignored="false"/>
+  <metric id="4578" type="quality-rule" originalName="Good use of Interfaces with collections as Method return types" active="true" detached="false" ignored="false"/>
+  <metric id="4580" type="quality-rule" originalName="Good use of Interfaces when instantiating a collection" active="true" detached="false" ignored="false"/>
+  <metric id="4592" type="quality-rule" originalName="Avoid hiding static methods" active="true" detached="false" ignored="false"/>
+  <metric id="4594" type="quality-rule" originalName="Avoid using 'java.io.File'" active="true" detached="false" ignored="false"/>
+  <metric id="4596" type="quality-rule" originalName="Avoid using 'java.lang.System.getenv()'" active="true" detached="false" ignored="false"/>
+  <metric id="4598" type="quality-rule" originalName="Avoid using 'java.lang.Runtime.exec()'" active="true" detached="false" ignored="false"/>
+  <metric id="4600" type="quality-rule" originalName="Avoid using 'java.System.exit()'" active="true" detached="false" ignored="false"/>
+  <metric id="4602" type="quality-rule" originalName="Avoid using fields (non Static final) from other Classes" active="true" detached="false" ignored="false"/>
+  <metric id="4604" type="quality-rule" originalName="Avoid using 'java.lang.Error'" active="true" detached="false" ignored="false"/>
+  <metric id="4606" type="quality-rule" originalName="Avoid using 'sun.*' Classes" active="true" detached="false" ignored="false"/>
+  <metric id="4610" type="quality-rule" originalName="Avoid using anonymous Classes" active="true" detached="false" ignored="false"/>
+  <metric id="4612" type="quality-rule" originalName="Avoid using native Methods (JNI)" active="true" detached="false" ignored="false"/>
+  <metric id="4614" type="quality-rule" originalName="Proper overriding of 'clone()'" active="true" detached="false" ignored="false"/>
+  <metric id="4616" type="quality-rule" originalName="Proper overriding of 'finalize()'" active="true" detached="false" ignored="false"/>
+  <metric id="4618" type="quality-rule" originalName="Avoid instantiating Boolean" active="true" detached="false" ignored="false"/>
+  <metric id="4652" type="quality-rule" originalName="Avoid direct Class inheritance from java.lang.Throwable" active="true" detached="false" ignored="false"/>
+  <metric id="4656" type="quality-rule" originalName="Avoid declaring throwing an exception and not throwing it" active="true" detached="false" ignored="false"/>
+  <metric id="4666" type="quality-rule" originalName="Classes and Interfaces must have JavaDoc Comments" active="true" detached="false" ignored="false"/>
+  <metric id="4668" type="quality-rule" originalName="Classes and Interfaces must have JavaDoc @author tag" active="true" detached="false" ignored="false"/>
+  <metric id="4670" type="quality-rule" originalName="Methods must have JavaDoc comments" active="true" detached="false" ignored="false"/>
+  <metric id="4672" type="quality-rule" originalName="Methods must have appropriate JavaDoc @param tags" active="true" detached="false" ignored="false"/>
+  <metric id="4674" type="quality-rule" originalName="Methods must have appropriate JavaDoc @return tags" active="true" detached="false" ignored="false"/>
+  <metric id="4676" type="quality-rule" originalName="Methods must have appropriate JavaDoc @throws tags" active="true" detached="false" ignored="false"/>
+  <metric id="4678" type="quality-rule" originalName="Methods must have appropriate JavaDoc @exception tags" active="true" detached="false" ignored="false"/>
+  <metric id="4680" type="quality-rule" originalName="Fields must have JavaDoc Comments" active="true" detached="false" ignored="false"/>
+  <metric id="4694" type="quality-rule" originalName="Avoid using 'System.gc'" active="true" detached="false" ignored="false"/>
+  <metric id="4696" type="quality-rule" originalName="Avoid using 'System.err' and 'System.out' within a try catch block" active="true" detached="false" ignored="false"/>
+  <metric id="4698" type="quality-rule" originalName="Avoid using 'System.err' and 'System.out' outside a try catch block" active="true" detached="false" ignored="false"/>
+  <metric id="4700" type="quality-rule" originalName="Avoid using 'System.printStackTrace()' within a try catch block" active="true" detached="false" ignored="false"/>
+  <metric id="4702" type="quality-rule" originalName="Avoid using 'System.printStackTrace()' outside a try catch block" active="true" detached="false" ignored="false"/>
+  <metric id="4704" type="quality-rule" originalName="Avoid using Vector" active="true" detached="false" ignored="false"/>
+  <metric id="4706" type="quality-rule" originalName="Avoid using HashTable" active="true" detached="false" ignored="false"/>
+  <metric id="4708" type="quality-rule" originalName="Avoid using Dynamic instantiation" active="true" detached="false" ignored="false"/>
+  <metric id="4712" type="quality-rule" originalName="Avoid inheritance down the Package path" active="true" detached="false" ignored="false"/>
+  <metric id="4716" type="quality-rule" originalName="Avoid Classes implementing too many Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="4718" type="quality-rule" originalName="Package size control" active="true" detached="false" ignored="false"/>
+  <metric id="4722" type="quality-rule" originalName="Track Classes referencing database objects" active="true" detached="false" ignored="false"/>
+  <metric id="4730" type="quality-rule" originalName="Package naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4732" type="quality-rule" originalName="Interface naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4734" type="quality-rule" originalName="Class naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4736" type="quality-rule" originalName="Method naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4738" type="quality-rule" originalName="Constant naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4740" type="quality-rule" originalName="Field naming convention - case control" active="true" detached="false" ignored="false"/>
+  <metric id="4744" type="quality-rule" originalName="EJB Entity access through their local Interface" active="true" detached="false" ignored="false"/>
+  <metric id="4746" type="quality-rule" originalName="EJB Session access through their local Interface" active="true" detached="false" ignored="false"/>
+  <metric id="5050" type="quality-rule" originalName="Avoid using HANDLE CONDITION" active="true" detached="false" ignored="false"/>
+  <metric id="5052" type="quality-rule" originalName="Avoid using IGNORE CONDITION" active="true" detached="false" ignored="false"/>
+  <metric id="5054" type="quality-rule" originalName="Avoid using HANDLE ABEND" active="true" detached="false" ignored="false"/>
+  <metric id="5056" type="quality-rule" originalName="Using SEARCH ALL only with sorted data" active="true" detached="false" ignored="false"/>
+  <metric id="5058" type="quality-rule" originalName="Avoid using SORT" active="true" detached="false" ignored="false"/>
+  <metric id="5060" type="quality-rule" originalName="Avoid using MERGE" active="true" detached="false" ignored="false"/>
+  <metric id="5062" type="quality-rule" originalName="Avoid using ALTER" active="true" detached="false" ignored="false"/>
+  <metric id="5064" type="quality-rule" originalName="Program naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="5066" type="quality-rule" originalName="Avoid using PERFORM ... THROUGH | THRU" active="true" detached="false" ignored="false"/>
+  <metric id="5068" type="quality-rule" originalName="Avoid STOP RUN (use GOBACK instead)" active="true" detached="false" ignored="false"/>
+  <metric id="5070" type="quality-rule" originalName="Section naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="5072" type="quality-rule" originalName="Avoid DISPLAY ... UPON CONSOLE" active="true" detached="false" ignored="false"/>
+  <metric id="5074" type="quality-rule" originalName="Paragraph naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="5080" type="quality-rule" originalName="Avoid Procedure Paragraphs that contains no statements" active="true" detached="false" ignored="false"/>
+  <metric id="5082" type="quality-rule" originalName="Avoid Procedure Sections that contain no Paragraphs." active="true" detached="false" ignored="false"/>
+  <metric id="5086" type="quality-rule" originalName="Avoid using Sections in the PROCEDURE DIVISION (use Paragraphs only)" active="true" detached="false" ignored="false"/>
+  <metric id="5090" type="quality-rule" originalName="Avoid using NEXT SENTENCE" active="true" detached="false" ignored="false"/>
+  <metric id="5092" type="quality-rule" originalName="Include a WHEN OTHER clause when using EVALUATE" active="true" detached="false" ignored="false"/>
+  <metric id="5094" type="quality-rule" originalName="Avoid using MOVE CORRESPONDING ... TO ..." active="true" detached="false" ignored="false"/>
+  <metric id="5100" type="quality-rule" originalName="Avoid large Sections - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="5104" type="quality-rule" originalName="Avoid large Programs - too many Sections" active="true" detached="false" ignored="false"/>
+  <metric id="5108" type="quality-rule" originalName="Avoid Sections with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="5110" type="quality-rule" originalName="Avoid Programs with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="5112" type="quality-rule" originalName="Avoid undocumented Sections" active="true" detached="false" ignored="false"/>
+  <metric id="5114" type="quality-rule" originalName="Avoid undocumented Programs" active="true" detached="false" ignored="false"/>
+  <metric id="5116" type="quality-rule" originalName="Avoid undocumented Paragraphs" active="true" detached="false" ignored="false"/>
+  <metric id="5138" type="quality-rule" originalName="Avoid Programs with lines of more than 80 characters" active="true" detached="false" ignored="false"/>
+  <metric id="5144" type="quality-rule" originalName="Avoid using GOTO statement" active="true" detached="false" ignored="false"/>
+  <metric id="5550" type="quality-rule" originalName="Avoid having joins with more than 4 tables" active="true" detached="false" ignored="false"/>
+  <metric id="5554" type="quality-rule" originalName="Avoid having SQL code in Triggers named &quot;pre-record&quot;" active="true" detached="false" ignored="false"/>
+  <metric id="5558" type="quality-rule" originalName="Based Data Blocks naming convention - represented table" active="true" detached="false" ignored="false"/>
+  <metric id="5560" type="quality-rule" originalName="Based Data Block Items naming convention - represented column" active="true" detached="false" ignored="false"/>
+  <metric id="5562" type="quality-rule" originalName="Not Based Data Blocks naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="5564" type="quality-rule" originalName="Not Based Data Block Items naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="5566" type="quality-rule" originalName="Use of call_form built-in Function from a centralized location" active="true" detached="false" ignored="false"/>
+  <metric id="5572" type="quality-rule" originalName="Avoid objects without COMMENT property" active="true" detached="false" ignored="false"/>
+  <metric id="6050" type="quality-rule" originalName="Datawindow naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6052" type="quality-rule" originalName="Global function naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6054" type="quality-rule" originalName="Menu naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6056" type="quality-rule" originalName="Structure naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6062" type="quality-rule" originalName="Window naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6066" type="quality-rule" originalName="Global variable naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6068" type="quality-rule" originalName="Instance variable naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6070" type="quality-rule" originalName="User event naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6072" type="quality-rule" originalName="Method naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="6076" type="quality-rule" originalName="Avoid Datawindows that does not access a database data" active="true" detached="false" ignored="false"/>
+  <metric id="6078" type="quality-rule" originalName="Avoid Datawindows accessing database procedures or functions" active="true" detached="false" ignored="false"/>
+  <metric id="6082" type="quality-rule" originalName="Avoid PB Function/Event/Method accessing database procedures or functions" active="true" detached="false" ignored="false"/>
+  <metric id="6084" type="quality-rule" originalName="Avoid having unreferenced code" active="true" detached="false" ignored="false"/>
+  <metric id="6102" type="quality-rule" originalName="Avoid undocumented events" active="true" detached="false" ignored="false"/>
+  <metric id="6104" type="quality-rule" originalName="Avoid events with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="6106" type="quality-rule" originalName="User event naming convention - declare only" active="true" detached="false" ignored="false"/>
+  <metric id="6110" type="quality-rule" originalName="Control must inherit from a userobject" active="true" detached="false" ignored="false"/>
+  <metric id="6112" type="quality-rule" originalName="Avoid using global variables" active="true" detached="false" ignored="false"/>
+  <metric id="6114" type="quality-rule" originalName="Avoid using global functions" active="true" detached="false" ignored="false"/>
+  <metric id="6124" type="quality-rule" originalName="Datawindows accessing database must be based on procedure" active="true" detached="false" ignored="false"/>
+  <metric id="6126" type="quality-rule" originalName="Avoid using dynamic SQL in scripts" active="true" detached="false" ignored="false"/>
+  <metric id="6128" type="quality-rule" originalName="Avoid window with too high level of inheritance" active="true" detached="false" ignored="false"/>
+  <metric id="6130" type="quality-rule" originalName="Avoid userobject with too high level of inheritance" active="true" detached="false" ignored="false"/>
+  <metric id="6132" type="quality-rule" originalName="Avoid overriding event" active="true" detached="false" ignored="false"/>
+  <metric id="6134" type="quality-rule" originalName="Avoid menu with too high level of inheritance" active="true" detached="false" ignored="false"/>
+  <metric id="6142" type="quality-rule" originalName="Avoid window with too many methods" active="true" detached="false" ignored="false"/>
+  <metric id="6144" type="quality-rule" originalName="Avoid userobject with too many methods" active="true" detached="false" ignored="false"/>
+  <metric id="6150" type="quality-rule" originalName="Avoid Menus, UserObjects and Windows that have no inheritance relations with other objects" active="true" detached="false" ignored="false"/>
+  <metric id="6162" type="quality-rule" originalName="Avoid Artifacts with High integration complexity" active="true" detached="false" ignored="false"/>
+  <metric id="6184" type="quality-rule" originalName="Avoid Artifacts with Subqueries" active="true" detached="false" ignored="false"/>
+  <metric id="6194" type="quality-rule" originalName="Avoid Artifacts with lines of more than 80 characters" active="true" detached="false" ignored="false"/>
+  <metric id="6584" type="quality-rule" originalName="View naming convention - name size control" active="true" detached="false" ignored="false"/>
+  <metric id="6586" type="quality-rule" originalName="Table naming convention - name size control" active="true" detached="false" ignored="false"/>
+  <metric id="6588" type="quality-rule" originalName="View naming convention - character set control" active="true" detached="false" ignored="false"/>
+  <metric id="6590" type="quality-rule" originalName="Table naming convention - character set control" active="true" detached="false" ignored="false"/>
+  <metric id="6592" type="quality-rule" originalName="DELETED:6592 Avoid undocumented Functions" active="true" detached="true" ignored="false"/>
+  <metric id="6594" type="quality-rule" originalName="Avoid undocumented Triggers" active="true" detached="true" ignored="false"/>
+  <metric id="6596" type="quality-rule" originalName="Avoid Triggers with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="6598" type="quality-rule" originalName="DELETED:6598 Avoid undocumented Procedures" active="true" detached="true" ignored="false"/>
+  <metric id="6600" type="quality-rule" originalName="Avoid functions and procedures with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="7050" type="quality-rule" originalName="Function naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="7054" type="quality-rule" originalName="Avoid large Programs - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="7056" type="quality-rule" originalName="Avoid Programs/Includes including large Includes" active="true" detached="false" ignored="false"/>
+  <metric id="7058" type="quality-rule" originalName="Avoid Programs with too many includes" active="true" detached="false" ignored="false"/>
+  <metric id="7060" type="quality-rule" originalName="Avoid undocumented Programs" active="true" detached="false" ignored="false"/>
+  <metric id="7062" type="quality-rule" originalName="Avoid undocumented Includes" active="true" detached="false" ignored="false"/>
+  <metric id="7066" type="quality-rule" originalName="Avoid Programs with low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7068" type="quality-rule" originalName="Avoid Includes with low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7072" type="quality-rule" originalName="Program naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="7074" type="quality-rule" originalName="Include naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="7076" type="quality-rule" originalName="Avoid Programs/Includes with more than 20 Forms" active="true" detached="false" ignored="false"/>
+  <metric id="7082" type="quality-rule" originalName="Avoid Function pools with more than 20 functions" active="true" detached="false" ignored="false"/>
+  <metric id="7084" type="quality-rule" originalName="Macro Naming Convention" active="false" detached="true" ignored="false"/>
+  <metric id="7086" type="quality-rule" originalName="Form Naming Convention" active="false" detached="true" ignored="false"/>
+  <metric id="7088" type="quality-rule" originalName="Processing Screen Naming Convention" active="false" detached="false" ignored="false"/>
+  <metric id="7090" type="quality-rule" originalName="Avoid Functions recursive calls" active="true" detached="true" ignored="false"/>
+  <metric id="7092" type="quality-rule" originalName="Avoid Include Circular references" active="true" detached="false" ignored="false"/>
+  <metric id="7094" type="quality-rule" originalName="Avoid Programs with more than 3 levels of inclusion" active="true" detached="false" ignored="false"/>
+  <metric id="7122" type="quality-measure" originalName="Complexity Volume (% of LoC)" active="true" detached="false" ignored="false"/>
+  <metric id="7124" type="quality-rule" originalName="Functional Evolvability" active="true" detached="true" ignored="false"/>
+  <metric id="7126" type="quality-rule" originalName="Avoid Artifact with high Commented-out Code Lines/Code Lines ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7128" type="quality-measure" originalName="Avoid Module with high Commented-out Code Lines/Code Lines ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7130" type="quality-rule" originalName="Avoid Artifacts with High Depth of Nested Subqueries" active="true" detached="false" ignored="false"/>
+  <metric id="7132" type="quality-rule" originalName="Action Mappings should have few forwards" active="true" detached="false" ignored="false"/>
+  <metric id="7134" type="quality-rule" originalName="Avoid having local forward with same name as global forward" active="true" detached="false" ignored="false"/>
+  <metric id="7136" type="quality-rule" originalName="Each method in an Action Class should have a small complexity" active="true" detached="false" ignored="false"/>
+  <metric id="7138" type="quality-rule" originalName="Action Classes should only be called by Action Mappings tag (for Struts 1.x) or Action tag (for Struts 2.x)" active="true" detached="false" ignored="false"/>
+  <metric id="7140" type="quality-rule" originalName="Action artifacts should not directly call a JSP page" active="true" detached="false" ignored="false"/>
+  <metric id="7142" type="quality-rule" originalName="Action Classes should have only one public method" active="true" detached="false" ignored="false"/>
+  <metric id="7144" type="quality-rule" originalName="Action Artifacts should not directly use database objects" active="true" detached="false" ignored="false"/>
+  <metric id="7146" type="quality-rule" originalName="JSP pages should only reference Java Objects associated to J2EE Scoped Bean" active="true" detached="false" ignored="false"/>
+  <metric id="7148" type="quality-rule" originalName="JSP pages should always be accessed through their tiles definition" active="true" detached="false" ignored="false"/>
+  <metric id="7150" type="quality-rule" originalName="Favor PreparedStatement or CallableStatement over Statement" active="true" detached="false" ignored="false"/>
+  <metric id="7152" type="quality-rule" originalName="Avoid fields in servlet classes that are not final static" active="true" detached="false" ignored="false"/>
+  <metric id="7154" type="quality-rule" originalName="Avoid fields in Action classes that are not final static" active="true" detached="false" ignored="false"/>
+  <metric id="7156" type="quality-rule" originalName="Avoid Too Many Copy Pasted Artifacts" active="true" detached="false" ignored="false"/>
+  <metric id="7188" type="quality-rule" originalName="Private fields must have JavaDoc Comments" active="true" detached="false" ignored="false"/>
+  <metric id="7190" type="quality-rule" originalName="Validator form validate() method must call super.validate()" active="true" detached="false" ignored="false"/>
+  <metric id="7192" type="quality-rule" originalName="Form Bean must extend Validator Class" active="true" detached="false" ignored="false"/>
+  <metric id="7194" type="quality-rule" originalName="Avoid large number of String concatenation" active="true" detached="false" ignored="false"/>
+  <metric id="7196" type="quality-rule" originalName="Avoid large number of String concatenation" active="true" detached="false" ignored="false"/>
+  <metric id="7198" type="quality-rule" originalName="Avoid String concatenation in loops" active="true" detached="false" ignored="false"/>
+  <metric id="7200" type="quality-rule" originalName="Avoid String concatenation in loops" active="true" detached="false" ignored="false"/>
+  <metric id="7202" type="quality-rule" originalName="Check usage of '==' and '!=' on objects" active="true" detached="false" ignored="false"/>
+  <metric id="7204" type="quality-rule" originalName="Avoid method invocation in a loop termination expression" active="true" detached="false" ignored="false"/>
+  <metric id="7206" type="quality-rule" originalName="Avoid the use of InstanceOf inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7208" type="quality-rule" originalName="Avoid the use of is inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7210" type="quality-rule" originalName="Avoid instantiations inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7212" type="quality-rule" originalName="Avoid instantiations inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7214" type="quality-rule" originalName="Avoid using exception handling inside loops" active="false" detached="true" ignored="false"/>
+  <metric id="7216" type="quality-rule" originalName="Avoid using exception handling inside loops" active="false" detached="true" ignored="false"/>
+  <metric id="7218" type="quality-rule" originalName="Avoid OPEN/CLOSE inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7220" type="quality-rule" originalName="Avoid Unused Imports" active="true" detached="false" ignored="false"/>
+  <metric id="7234" type="quality-rule" originalName="EVALUATE statements must be closed by END-EVALUATE" active="true" detached="false" ignored="false"/>
+  <metric id="7236" type="quality-rule" originalName="Avoid recursive calls with PERFORM statements" active="true" detached="false" ignored="false"/>
+  <metric id="7238" type="quality-rule" originalName="Avoid calls between JSP Pages" active="true" detached="false" ignored="false"/>
+  <metric id="7240" type="quality-rule" originalName="Action Classes should only call Business Classes" active="false" detached="false" ignored="false"/>
+  <metric id="7242" type="quality-rule" originalName="Avoid implementing Action classes inheriting directly from Struts Action" active="true" detached="false" ignored="false"/>
+  <metric id="7244" type="quality-rule" originalName="Avoid direct usage of EJB Entity from the client" active="false" detached="false" ignored="false"/>
+  <metric id="7246" type="quality-rule" originalName="Avoid Packages with High Efferent Coupling (CE)" active="true" detached="false" ignored="false"/>
+  <metric id="7248" type="quality-rule" originalName="Avoid Packages with High Afferent Coupling (CA)" active="true" detached="false" ignored="false"/>
+  <metric id="7250" type="quality-rule" originalName="Avoid String initialization with String object (created using the 'new' keyword)" active="true" detached="false" ignored="false"/>
+  <metric id="7252" type="quality-rule" originalName="Call 'super.finalize ()' in the &quot;finally&quot; block of 'finalize ()' methods" active="true" detached="false" ignored="false"/>
+  <metric id="7254" type="quality-rule" originalName="Declare as Static all methods not using instance members" active="true" detached="false" ignored="false"/>
+  <metric id="7256" type="quality-rule" originalName="Provide a private default constructor for utility classes" active="true" detached="false" ignored="false"/>
+  <metric id="7258" type="quality-rule" originalName="DataReader must be called using CommandBehavior.CloseConnection enumeration" active="true" detached="false" ignored="false"/>
+  <metric id="7260" type="quality-rule" originalName="User Interface elements must not use directly the database" active="true" detached="false" ignored="false"/>
+  <metric id="7262" type="quality-rule" originalName="Avoid Namespaces with High Efferent Coupling (CE)" active="true" detached="false" ignored="false"/>
+  <metric id="7264" type="quality-rule" originalName="Avoid namespaces with High Afferent Coupling (CA)" active="true" detached="false" ignored="false"/>
+  <metric id="7266" type="quality-rule" originalName="Call 'base.Dispose()' or 'MyBase.Finalize()' in the &quot;finally&quot; block of 'Dispose(bool)' methods" active="true" detached="false" ignored="false"/>
+  <metric id="7268" type="quality-rule" originalName="Dispose() methods should call GC.SuppressFinalize" active="true" detached="false" ignored="false"/>
+  <metric id="7270" type="quality-rule" originalName="Declare as Static all methods not using instance members" active="true" detached="false" ignored="false"/>
+  <metric id="7272" type="quality-rule" originalName="Provide a private default constructor for utility classes" active="true" detached="false" ignored="false"/>
+  <metric id="7274" type="quality-rule" originalName="Avoid GOTO jumps out of PERFORM range" active="true" detached="false" ignored="false"/>
+  <metric id="7288" type="quality-rule" originalName="Avoid cyclic calls with PERFORM statements" active="true" detached="false" ignored="false"/>
+  <metric id="7290" type="quality-rule" originalName="Avoid unreferenced Sections and Paragraphs" active="true" detached="false" ignored="false"/>
+  <metric id="7292" type="quality-rule" originalName="Avoid cyclical calls and inheritances between packages" active="true" detached="false" ignored="false"/>
+  <metric id="7294" type="quality-rule" originalName="Avoid cyclical calls and inheritances between namespaces content" active="true" detached="false" ignored="false"/>
+  <metric id="7296" type="quality-rule" originalName="Never define static variables in header files (outside any class scope)" active="true" detached="false" ignored="false"/>
+  <metric id="7298" type="quality-rule" originalName="A class that has pointer data members must provide a copy constructor" active="true" detached="true" ignored="false"/>
+  <metric id="7300" type="quality-rule" originalName="Avoid large Paragraphs - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="7302" type="quality-rule" originalName="Avoid using Pointers" active="true" detached="false" ignored="false"/>
+  <metric id="7304" type="quality-rule" originalName="IF statements must be closed by END-IF" active="true" detached="false" ignored="false"/>
+  <metric id="7306" type="quality-rule" originalName="Avoid declaring Inner Classes" active="true" detached="false" ignored="false"/>
+  <metric id="7308" type="quality-rule" originalName="Avoid using Inner Classes" active="true" detached="false" ignored="false"/>
+  <metric id="7340" type="quality-rule" originalName="Avoid classes with non virtual destructor whenever one of its base class has a virtual destructor" active="true" detached="false" ignored="false"/>
+  <metric id="7342" type="quality-rule" originalName="Avoid non virtual methods overriding virtual methods" active="true" detached="false" ignored="false"/>
+  <metric id="7344" type="quality-rule" originalName="Avoid &quot;SELECT *&quot; queries" active="true" detached="false" ignored="false"/>
+  <metric id="7346" type="quality-rule" originalName="Avoid redundant indexes" active="true" detached="false" ignored="false"/>
+  <metric id="7348" type="quality-rule" originalName="Avoid too many indexes on one table" active="true" detached="false" ignored="false"/>
+  <metric id="7350" type="quality-rule" originalName="Avoid tables having indexes with a too large index definition" active="false" detached="false" ignored="false"/>
+  <metric id="7352" type="quality-rule" originalName="Avoid calling properties that clone values in loops" active="true" detached="false" ignored="false"/>
+  <metric id="7358" type="quality-rule" originalName="Avoid call to AcceptChanges in a loop" active="true" detached="false" ignored="false"/>
+  <metric id="7360" type="quality-rule" originalName="[DELETED] Avoid hiding Static Methods" active="true" detached="true" ignored="false"/>
+  <metric id="7362" type="quality-rule" originalName="Avoid action mappings validator turned off" active="true" detached="false" ignored="false"/>
+  <metric id="7364" type="quality-rule" originalName="Avoid multiple validation form with the same name" active="true" detached="false" ignored="false"/>
+  <metric id="7366" type="quality-rule" originalName="File descriptor block must be defined with 0 record" active="true" detached="false" ignored="false"/>
+  <metric id="7368" type="quality-rule" originalName="When using binary data items (COMP), then use the SYNCHRONIZED clause" active="true" detached="false" ignored="false"/>
+  <metric id="7370" type="quality-rule" originalName="Avoid using inline PERFORM with too many lines of code" active="true" detached="false" ignored="false"/>
+  <metric id="7372" type="quality-rule" originalName="Enable Struts Validator plugin" active="true" detached="false" ignored="false"/>
+  <metric id="7378" type="quality-rule" originalName="Avoid include JavaScript Files" active="true" detached="false" ignored="false"/>
+  <metric id="7380" type="quality-rule" originalName="Avoid unused validation form" active="true" detached="false" ignored="false"/>
+  <metric id="7382" type="quality-rule" originalName="Avoid Validator field without Form Field" active="true" detached="false" ignored="false"/>
+  <metric id="7384" type="quality-rule" originalName="Large programs should be called dynamically" active="true" detached="true" ignored="false"/>
+  <metric id="7386" type="quality-rule" originalName="Avoid tables without a clustered index" active="true" detached="false" ignored="false"/>
+  <metric id="7388" type="quality-rule" originalName="Avoid artifacts having recursive calls" active="true" detached="false" ignored="false"/>
+  <metric id="7390" type="quality-rule" originalName="Avoid having multiple artifacts inserting data on the same SQL table" active="true" detached="false" ignored="false"/>
+  <metric id="7392" type="quality-rule" originalName="Avoid having multiple artifacts deleting data on the same SQL table" active="true" detached="false" ignored="false"/>
+  <metric id="7394" type="quality-rule" originalName="Avoid having multiple artifacts updating data on the same SQL table" active="true" detached="false" ignored="false"/>
+  <metric id="7396" type="quality-rule" originalName="Subprograms called multiple times should be called statically" active="true" detached="true" ignored="false"/>
+  <metric id="7400" type="quality-rule" originalName="Avoid undocumented functions and procedures" active="true" detached="true" ignored="false"/>
+  <metric id="7402" type="quality-rule" originalName="Avoid functions and procedures with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="7404" type="quality-rule" originalName="Avoid unreferenced views" active="true" detached="false" ignored="false"/>
+  <metric id="7406" type="quality-rule" originalName="Avoid undocumented functions and procedures" active="true" detached="true" ignored="false"/>
+  <metric id="7408" type="quality-rule" originalName="Avoid functions and procedures with a very low comment/code ratio" active="true" detached="true" ignored="false"/>
+  <metric id="7412" type="quality-rule" originalName="Avoid undocumented functions and procedures" active="true" detached="true" ignored="false"/>
+  <metric id="7416" type="quality-rule" originalName="Avoid Form Field without Validator" active="true" detached="false" ignored="false"/>
+  <metric id="7418" type="quality-rule" originalName="Avoid SQL queries using functions on indexed columns in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7420" type="quality-rule" originalName="Avoid SQL queries with implicit conversions in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7424" type="quality-rule" originalName="Avoid using SQL queries inside a loop" active="true" detached="false" ignored="false"/>
+  <metric id="7428" type="quality-rule" originalName="Avoid SQL queries not using the first column of a composite index in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7434" type="quality-rule" originalName="Avoid classes overriding only equals() or only hashCode()" active="true" detached="false" ignored="false"/>
+  <metric id="7436" type="quality-rule" originalName="Prefer UNION ALL to UNION" active="true" detached="false" ignored="false"/>
+  <metric id="7438" type="quality-rule" originalName="Avoid non thread safe singleton" active="true" detached="false" ignored="false"/>
+  <metric id="7440" type="quality-rule" originalName="Suspicious similar methods name or signature in an inheritance tree" active="true" detached="false" ignored="false"/>
+  <metric id="7442" type="quality-rule" originalName="Avoid to use this within constructor in multi-thread environment" active="true" detached="false" ignored="false"/>
+  <metric id="7444" type="quality-rule" originalName="Serialize session objects" active="true" detached="false" ignored="false"/>
+  <metric id="7446" type="quality-rule" originalName="Avoid double checked locking" active="true" detached="false" ignored="false"/>
+  <metric id="7448" type="quality-rule" originalName="Always validate user input with Request variables" active="true" detached="false" ignored="false"/>
+  <metric id="7458" type="quality-rule" originalName="Avoid large Interfaces - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7460" type="quality-rule" originalName="Avoid using untyped DataSet" active="true" detached="false" ignored="false"/>
+  <metric id="7466" type="quality-rule" originalName="Avoid changing DataSource member before ValueMember/DisplayMember" active="true" detached="false" ignored="false"/>
+  <metric id="7468" type="quality-rule" originalName="Disable constraints before merging DataSet" active="true" detached="false" ignored="false"/>
+  <metric id="7470" type="quality-rule" originalName="Avoid doing select on Datatable in loop" active="true" detached="false" ignored="false"/>
+  <metric id="7474" type="quality-rule" originalName="Use BeginUpdate/EndUpdate when using Items.Add method in loop" active="true" detached="false" ignored="false"/>
+  <metric id="7476" type="quality-rule" originalName="Turn off &quot;Multiple SQL statements for each measure&quot;" active="true" detached="false" ignored="false"/>
+  <metric id="7480" type="quality-rule" originalName="Use aggregate awareness for indicators" active="true" detached="false" ignored="false"/>
+  <metric id="7482" type="quality-rule" originalName="Do not use Cartesian products in universe properties" active="true" detached="false" ignored="false"/>
+  <metric id="7484" type="quality-rule" originalName="Objects in universe using inexistent table/column" active="true" detached="false" ignored="false"/>
+  <metric id="7486" type="quality-rule" originalName="Split universes of more than X MB" active="true" detached="false" ignored="false"/>
+  <metric id="7488" type="quality-rule" originalName="Use lazy fetching for collection" active="true" detached="false" ignored="false"/>
+  <metric id="7490" type="quality-rule" originalName="Avoid UPDATE trigger firing when not necessary" active="true" detached="false" ignored="false"/>
+  <metric id="7492" type="quality-rule" originalName="Avoid many-to-many association" active="true" detached="false" ignored="false"/>
+  <metric id="7494" type="quality-rule" originalName="Persistent class method's equals() and hashCode() must access its fields through getter methods" active="true" detached="false" ignored="false"/>
+  <metric id="7496" type="quality-rule" originalName="Use table-per-subclass strategy when subclasses have many properties" active="true" detached="false" ignored="false"/>
+  <metric id="7498" type="quality-rule" originalName="Collection must be the same between getter and setter" active="true" detached="false" ignored="false"/>
+  <metric id="7500" type="quality-rule" originalName="Use table-per-class-hierarchy when subclasses have few properties" active="true" detached="false" ignored="false"/>
+  <metric id="7502" type="quality-rule" originalName="Never use array to map a collection" active="true" detached="false" ignored="false"/>
+  <metric id="7504" type="quality-rule" originalName="Persistent classes should Implement hashCode() and equals()" active="true" detached="false" ignored="false"/>
+  <metric id="7506" type="quality-rule" originalName="Define equals() and hashCode() for component" active="true" detached="false" ignored="false"/>
+  <metric id="7508" type="quality-rule" originalName="Collection-typed attributes getter must be defined with the right interface" active="true" detached="false" ignored="false"/>
+  <metric id="7510" type="quality-rule" originalName="Use only Hibernate API to access to the database" active="true" detached="false" ignored="false"/>
+  <metric id="7512" type="quality-rule" originalName="Avoid empty Functions, Forms and Modules" active="true" detached="false" ignored="false"/>
+  <metric id="7514" type="quality-rule" originalName="Avoid empty Includes" active="true" detached="false" ignored="false"/>
+  <metric id="7516" type="quality-rule" originalName="Avoid empty Programs" active="true" detached="false" ignored="false"/>
+  <metric id="7518" type="quality-rule" originalName="Avoid missing WHEN OTHERS in CASE statements" active="true" detached="false" ignored="false"/>
+  <metric id="7520" type="quality-rule" originalName="Avoid unchecked return code (SY-SUBRC) after OPEN SQL or READ statement" active="true" detached="false" ignored="false"/>
+  <metric id="7522" type="quality-rule" originalName="Avoid using literals in assignments (hardcoded values)" active="true" detached="false" ignored="false"/>
+  <metric id="7524" type="quality-rule" originalName="Avoid using BREAK or BREAK-POINT statement" active="true" detached="false" ignored="false"/>
+  <metric id="7526" type="quality-rule" originalName="Avoid using hardcoded paths" active="true" detached="false" ignored="false"/>
+  <metric id="7528" type="quality-rule" originalName="Never use the ON CHANGE OF statement" active="true" detached="false" ignored="false"/>
+  <metric id="7530" type="quality-rule" originalName="Avoid &quot;SELECT *&quot; or &quot;SELECT SINGLE *&quot; queries" active="true" detached="false" ignored="false"/>
+  <metric id="7532" type="quality-rule" originalName="Avoid nested SELECT ... ENDSELECT statements" active="true" detached="false" ignored="false"/>
+  <metric id="7534" type="quality-rule" originalName="Avoid READ TABLE without BINARY SEARCH" active="true" detached="false" ignored="false"/>
+  <metric id="7536" type="quality-rule" originalName="Avoid using AT events in combination of LOOP AT .... WHERE constructs" active="true" detached="false" ignored="false"/>
+  <metric id="7538" type="quality-rule" originalName="Avoid using SELECT ... INTO CORRESPONDING FIELDS OF" active="true" detached="false" ignored="false"/>
+  <metric id="7540" type="quality-rule" originalName="Avoid unreferenced Includes" active="true" detached="false" ignored="false"/>
+  <metric id="7542" type="quality-rule" originalName="Avoid using FOR ALL ENTRIES IN without emptiness check" active="true" detached="false" ignored="false"/>
+  <metric id="7544" type="quality-rule" originalName="Avoid using SELECT ... ENDSELECT statement" active="true" detached="false" ignored="false"/>
+  <metric id="7548" type="quality-rule" originalName="Never use incompatible statements with the CICS environment" active="true" detached="false" ignored="false"/>
+  <metric id="7550" type="quality-rule" originalName="Avoid using nested programs" active="true" detached="false" ignored="false"/>
+  <metric id="7552" type="quality-rule" originalName="Avoid incoherent file accesses in Cobol programs and DISP clauses in JCL" active="true" detached="false" ignored="false"/>
+  <metric id="7554" type="quality-rule" originalName="Never access an IMS segment with an access mode not authorized in the PCB" active="true" detached="false" ignored="false"/>
+  <metric id="7556" type="quality-rule" originalName="Avoid instanceof in methods that override or implement Object.equals(), Comparable.compareTo()" active="true" detached="false" ignored="false"/>
+  <metric id="7558" type="quality-rule" originalName="Avoid accessing data by using the position and length" active="true" detached="false" ignored="false"/>
+  <metric id="7560" type="quality-rule" originalName="Programs accessing relational databases must include the SQLCA copybook" active="true" detached="true" ignored="false"/>
+  <metric id="7562" type="quality-rule" originalName="Avoid static field of type collection" active="true" detached="false" ignored="false"/>
+  <metric id="7568" type="quality-rule" originalName="Avoid undocumented User-exits" active="true" detached="false" ignored="false"/>
+  <metric id="7570" type="quality-rule" originalName="Avoid User-Exits with low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7572" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP include (DELETE)" active="true" detached="false" ignored="false"/>
+  <metric id="7576" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP include (INSERT)" active="true" detached="false" ignored="false"/>
+  <metric id="7578" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP include (UPDATE)" active="true" detached="false" ignored="false"/>
+  <metric id="7580" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP program (DELETE)" active="true" detached="false" ignored="false"/>
+  <metric id="7582" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP program (INSERT)" active="true" detached="false" ignored="false"/>
+  <metric id="7584" type="quality-rule" originalName="Avoid accessing multiple times the same SAP Table or View in an SAP program (UPDATE)" active="true" detached="false" ignored="false"/>
+  <metric id="7586" type="quality-rule" originalName="Avoid cyclic calls between Event and its handled Method" active="true" detached="false" ignored="false"/>
+  <metric id="7588" type="quality-rule" originalName="Avoid custom code with OSS notes" active="true" detached="true" ignored="false"/>
+  <metric id="7592" type="quality-rule" originalName="Avoid using &quot;ORDER BY&quot; in SELECTS" active="true" detached="false" ignored="false"/>
+  <metric id="7594" type="quality-rule" originalName="Avoid using &quot;SELECT DISTINCT&quot;, use DELETE-ADJACENT" active="true" detached="false" ignored="false"/>
+  <metric id="7596" type="quality-rule" originalName="Avoid Classes implementing too many Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="7598" type="quality-rule" originalName="Class naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="7602" type="quality-rule" originalName="Transaction naming convention" active="true" detached="false" ignored="false"/>
+  <metric id="7612" type="quality-rule" originalName="Avoid Interfaces with a low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7624" type="quality-rule" originalName="Class members should be declared as Private" active="true" detached="false" ignored="false"/>
+  <metric id="7626" type="quality-rule" originalName="Avoid large Classes - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7628" type="quality-rule" originalName="Avoid large Classes - too many Data Members" active="true" detached="false" ignored="false"/>
+  <metric id="7630" type="quality-rule" originalName="Avoid large Interfaces - too many Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7634" type="quality-rule" originalName="Avoid select-before-update when the table is not associated to an UPDATE trigger" active="true" detached="false" ignored="false"/>
+  <metric id="7636" type="quality-rule" originalName="Use version instead of timestamp" active="true" detached="false" ignored="false"/>
+  <metric id="7638" type="quality-rule" originalName="Avoid using DriverManager" active="true" detached="false" ignored="false"/>
+  <metric id="7640" type="quality-rule" originalName="Avoid catch blocks with assertion" active="true" detached="false" ignored="false"/>
+  <metric id="7642" type="quality-rule" originalName="Avoid SQL queries on XXL tables not using the first column of a composite index in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7644" type="quality-rule" originalName="Avoid executing multiple OPEN statements" active="true" detached="false" ignored="false"/>
+  <metric id="7648" type="quality-rule" originalName="Avoid calling finalize()" active="true" detached="false" ignored="false"/>
+  <metric id="7650" type="quality-rule" originalName="All types of a serializable class must be serializable" active="true" detached="false" ignored="false"/>
+  <metric id="7652" type="quality-rule" originalName="Avoid throwing an exception in a catch block without chaining it" active="true" detached="false" ignored="false"/>
+  <metric id="7654" type="quality-rule" originalName="Avoid database tables associated to more than one Entity" active="true" detached="false" ignored="false"/>
+  <metric id="7658" type="quality-rule" originalName="Avoid SQL queries on XXL tables using functions on indexed columns in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7660" type="quality-rule" originalName="Never use SQL queries with a cartesian product on XXL tables" active="true" detached="false" ignored="false"/>
+  <metric id="7662" type="quality-rule" originalName="Avoid SQL queries on XXL tables with implicit conversions in the WHERE clause" active="true" detached="false" ignored="false"/>
+  <metric id="7664" type="quality-rule" originalName="Avoid using FOR ALL ENTRIES IN without emptiness check on XXL Tables" active="true" detached="false" ignored="false"/>
+  <metric id="7666" type="quality-rule" originalName="Avoid using SELECT ... ENDSELECT statement on XXL tables" active="true" detached="false" ignored="false"/>
+  <metric id="7668" type="quality-rule" originalName="Avoid using incorrect XML parsing model" active="true" detached="false" ignored="false"/>
+  <metric id="7670" type="quality-rule" originalName="Avoid accessing SAP standard tables in modification from custom code" active="true" detached="false" ignored="false"/>
+  <metric id="7672" type="quality-rule" originalName="Avoid using EXIT statement in Include" active="true" detached="false" ignored="false"/>
+  <metric id="7676" type="quality-rule" originalName="Avoid too many packages referencing Mainframe" active="true" detached="false" ignored="false"/>
+  <metric id="7678" type="quality-rule" originalName="Avoid using specific logging implementation" active="true" detached="false" ignored="false"/>
+  <metric id="7680" type="quality-rule" originalName="Declare as Final all classes that will not be sub-classed" active="true" detached="false" ignored="false"/>
+  <metric id="7682" type="quality-rule" originalName="Avoid domain model depending on other Java API" active="true" detached="false" ignored="false"/>
+  <metric id="7688" type="quality-rule" originalName="Never truncate data in MOVE statements" active="true" detached="false" ignored="false"/>
+  <metric id="7690" type="quality-rule" originalName="Avoid unchecked return code (SQLCODE) after EXEC SQL query" active="true" detached="false" ignored="false"/>
+  <metric id="7692" type="quality-rule" originalName="Each opened file must be closed" active="true" detached="false" ignored="false"/>
+  <metric id="7694" type="quality-rule" originalName="Avoid calling the same paragraph with PERFORM and GO TO statements" active="true" detached="false" ignored="false"/>
+  <metric id="7696" type="quality-rule" originalName="A copybook should not includes other copybooks" active="true" detached="false" ignored="false"/>
+  <metric id="7698" type="quality-rule" originalName="Files should be declared with a FILE-STATUS" active="true" detached="false" ignored="false"/>
+  <metric id="7700" type="quality-rule" originalName="Use only Struts HTTP Servlet" active="true" detached="false" ignored="false"/>
+  <metric id="7702" type="quality-rule" originalName="Use a third party connection pool" active="true" detached="false" ignored="false"/>
+  <metric id="7704" type="quality-rule" originalName="Avoid static fields that are not final" active="true" detached="false" ignored="false"/>
+  <metric id="7706" type="quality-rule" originalName="Avoid table and column names that are too long (portability)" active="true" detached="false" ignored="false"/>
+  <metric id="7708" type="quality-rule" originalName="Avoid using session.setFlushMode(FlushMode.COMMIT, FlushMode.NEVER or FlushMode.MANUAL)" active="true" detached="false" ignored="false"/>
+  <metric id="7710" type="quality-rule" originalName="Avoid non serializable Entities" active="true" detached="false" ignored="false"/>
+  <metric id="7712" type="quality-rule" originalName="Avoid public/protected setter for the generated identifier field" active="true" detached="false" ignored="false"/>
+  <metric id="7714" type="quality-rule" originalName="Do not use auto-wiring" active="true" detached="false" ignored="false"/>
+  <metric id="7716" type="quality-rule" originalName="Avoid defining singleton or factory when using Spring" active="true" detached="false" ignored="false"/>
+  <metric id="7718" type="quality-rule" originalName="Sections and paragraphs should be located after the first statement calling them" active="true" detached="false" ignored="false"/>
+  <metric id="7720" type="quality-rule" originalName="Avoid too many EJB bean" active="true" detached="false" ignored="false"/>
+  <metric id="7722" type="quality-rule" originalName="Avoid using references to the id in the persistent classes method's equals()" active="true" detached="false" ignored="false"/>
+  <metric id="7724" type="quality-rule" originalName="Overriden equals() methods in persistent subclasses should only reference properties from the persistent base class" active="true" detached="false" ignored="false"/>
+  <metric id="7726" type="quality-rule" originalName="Avoid Action artifacts that call packages that reference database" active="true" detached="false" ignored="false"/>
+  <metric id="7728" type="quality-rule" originalName="Avoid thread creation for application running on application server" active="true" detached="false" ignored="false"/>
+  <metric id="7730" type="quality-rule" originalName="Use declarative transaction" active="true" detached="false" ignored="false"/>
+  <metric id="7732" type="quality-rule" originalName="Avoid non validated inputs" active="true" detached="false" ignored="false"/>
+  <metric id="7734" type="quality-rule" originalName="Avoid to use Log.debug() without calling Log.isDebugEnabled()" active="true" detached="false" ignored="false"/>
+  <metric id="7740" type="quality-rule" originalName="CWE-79: Avoid cross-site scripting vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7742" type="quality-rule" originalName="CWE-89: Avoid SQL injection vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7746" type="quality-rule" originalName="CWE-90: Avoid LDAP injection vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7748" type="quality-rule" originalName="CWE-78: Avoid OS command injection vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7750" type="quality-rule" originalName="CWE-91: Avoid XPath injection vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7752" type="quality-rule" originalName="CWE-73: Avoid file path manipulation vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="7754" type="quality-rule" originalName="Avoid using COMPUTE statement for elementary arithmetic operation" active="true" detached="false" ignored="false"/>
+  <metric id="7756" type="quality-rule" originalName="Avoid using READ statement without AT END clause or INVALID KEY clause" active="true" detached="false" ignored="false"/>
+  <metric id="7760" type="quality-rule" originalName="Avoid triggers, functions and procedures with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7762" type="quality-rule" originalName="Avoid undocumented triggers, functions and procedures" active="true" detached="false" ignored="false"/>
+  <metric id="7766" type="quality-rule" originalName="Avoid Artifacts with High Cyclomatic Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="7768" type="quality-rule" originalName="Avoid Artifacts with High Depth of Code" active="true" detached="false" ignored="false"/>
+  <metric id="7770" type="quality-rule" originalName="Avoid artifacts with too many parameters" active="true" detached="false" ignored="false"/>
+  <metric id="7772" type="quality-rule" originalName="Avoid Artifacts with High Essential Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="7774" type="quality-rule" originalName="Avoid Artifacts with High Integration Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="7776" type="quality-rule" originalName="Avoid Artifacts with High Fan-In" active="true" detached="false" ignored="false"/>
+  <metric id="7778" type="quality-rule" originalName="Avoid Artifacts with High Fan-Out" active="true" detached="false" ignored="false"/>
+  <metric id="7780" type="quality-rule" originalName="Avoid Classes with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7782" type="quality-rule" originalName="Avoid empty finally blocks" active="true" detached="false" ignored="false"/>
+  <metric id="7784" type="quality-rule" originalName="Avoid Artifacts with lines longer than X characters" active="true" detached="false" ignored="false"/>
+  <metric id="7786" type="quality-rule" originalName="Avoid long Table or View names" active="true" detached="false" ignored="false"/>
+  <metric id="7788" type="quality-rule" originalName="Avoid empty catch blocks" active="true" detached="false" ignored="false"/>
+  <metric id="7790" type="quality-rule" originalName="Avoid Cursors inside a loop" active="true" detached="false" ignored="false"/>
+  <metric id="7792" type="quality-rule" originalName="Avoid Classes with a High Number Of Children" active="true" detached="false" ignored="false"/>
+  <metric id="7794" type="quality-rule" originalName="Avoid Classes with a High Public Data Ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7796" type="quality-rule" originalName="Avoid Classes with a High Lack of Cohesion 2" active="true" detached="false" ignored="false"/>
+  <metric id="7798" type="quality-rule" originalName="Avoid Classes with a High Lack of Cohesion" active="true" detached="false" ignored="false"/>
+  <metric id="7800" type="quality-rule" originalName="Avoid Classes with High Coupling Between Objects" active="true" detached="false" ignored="false"/>
+  <metric id="7802" type="quality-rule" originalName="Avoid Classes and Interfaces with a High Depth of Inheritance Tree" active="true" detached="false" ignored="false"/>
+  <metric id="7804" type="quality-rule" originalName="Avoid Classes with High Weighted Methods per Class" active="true" detached="false" ignored="false"/>
+  <metric id="7806" type="quality-rule" originalName="Avoid Artifacts with Group By" active="true" detached="false" ignored="false"/>
+  <metric id="7808" type="quality-rule" originalName="Avoid Artifacts with SQL statement including subqueries" active="true" detached="false" ignored="false"/>
+  <metric id="7810" type="quality-rule" originalName="Avoid Artifacts with a Complex SELECT Clause" active="true" detached="false" ignored="false"/>
+  <metric id="7812" type="quality-rule" originalName="Class naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="7814" type="quality-rule" originalName="Avoid tables not involved in a Foreign Key" active="true" detached="false" ignored="false"/>
+  <metric id="7816" type="quality-rule" originalName="Avoid using GOTO statement" active="true" detached="false" ignored="false"/>
+  <metric id="7818" type="quality-rule" originalName="Avoid Functions having a very low Comment/Code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7820" type="quality-rule" originalName="Never use SQL queries with a cartesian product" active="true" detached="false" ignored="false"/>
+  <metric id="7822" type="quality-rule" originalName="Avoid Artifacts with queries on more than 4 Tables" active="true" detached="false" ignored="false"/>
+  <metric id="7824" type="quality-rule" originalName="The exception Exception should never been thrown. Always Subclass Exception and throw the Subclassed Classes." active="true" detached="false" ignored="false"/>
+  <metric id="7826" type="quality-rule" originalName="Forms naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7828" type="quality-rule" originalName="Avoid Artifacts with High RAW SQL Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="7830" type="quality-rule" originalName="Avoid unreferenced Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="7832" type="quality-rule" originalName="Avoid unreferenced Classes" active="true" detached="false" ignored="false"/>
+  <metric id="7834" type="quality-rule" originalName="Avoid undocumented Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="7836" type="quality-rule" originalName="Avoid undocumented Functions" active="true" detached="false" ignored="false"/>
+  <metric id="7838" type="quality-rule" originalName="Avoid undocumented Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7840" type="quality-rule" originalName="Trigger naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7842" type="quality-rule" originalName="Avoid large Artifacts - too many Lines of Code" active="true" detached="false" ignored="false"/>
+  <metric id="7844" type="quality-rule" originalName="Avoid undocumented Classes" active="true" detached="false" ignored="false"/>
+  <metric id="7846" type="quality-rule" originalName="Avoid Methods with a very low comment/code ratio" active="true" detached="false" ignored="false"/>
+  <metric id="7848" type="quality-rule" originalName="Interface naming convention - prefix" active="true" detached="false" ignored="false"/>
+  <metric id="7850" type="quality-rule" originalName="Avoid raising an exception in a Web Dynpro Supply Function or in a Method called by a Supply Function" active="true" detached="false" ignored="false"/>
+  <metric id="7852" type="quality-rule" originalName="Database view naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7854" type="quality-rule" originalName="Database table naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7856" type="quality-rule" originalName="Avoid Tables with more than 20 columns on an OLTP system" active="true" detached="false" ignored="false"/>
+  <metric id="7858" type="quality-rule" originalName="Avoid passing parameter by value" active="true" detached="false" ignored="false"/>
+  <metric id="7860" type="quality-rule" originalName="Avoid unreferenced Functions" active="true" detached="false" ignored="false"/>
+  <metric id="7862" type="quality-rule" originalName="Avoid catching an exception of type Exception, RuntimeException, or Throwable" active="true" detached="false" ignored="false"/>
+  <metric id="7864" type="quality-rule" originalName="BAPIs must not cause the program to abort or terminate" active="true" detached="false" ignored="false"/>
+  <metric id="7866" type="quality-rule" originalName="Avoid SELECT ... BYPASSING BUFFER" active="true" detached="false" ignored="false"/>
+  <metric id="7868" type="quality-rule" originalName="Avoid Open SQL queries in loops" active="true" detached="false" ignored="false"/>
+  <metric id="7870" type="quality-rule" originalName="Avoid using the NOT operator in WHERE clauses" active="true" detached="false" ignored="false"/>
+  <metric id="7872" type="quality-rule" originalName="Avoid using IS [NOT] NULL in WHERE condition" active="true" detached="false" ignored="false"/>
+  <metric id="7874" type="quality-rule" originalName="Avoid using dynamic queries" active="true" detached="false" ignored="false"/>
+  <metric id="7876" type="quality-rule" originalName="Avoid using SELECT ... FOR UPDATE" active="true" detached="false" ignored="false"/>
+  <metric id="7878" type="quality-rule" originalName="Avoid Open SQL SELECT queries without WHERE condition" active="true" detached="false" ignored="false"/>
+  <metric id="7880" type="quality-rule" originalName="Avoid nested loops" active="true" detached="false" ignored="false"/>
+  <metric id="7882" type="quality-rule" originalName="Avoid using Native SQL" active="true" detached="false" ignored="false"/>
+  <metric id="7884" type="quality-rule" originalName="Avoid disabling source code inspection" active="true" detached="false" ignored="false"/>
+  <metric id="7886" type="quality-rule" originalName="Avoid using SYSTEM-CALL" active="true" detached="false" ignored="false"/>
+  <metric id="7888" type="quality-rule" originalName="Web Dynpro - Never use direct calls to routine via &quot;me-&gt;&quot;, use &quot;wd_This-&gt;&quot; instead" active="true" detached="false" ignored="false"/>
+  <metric id="7890" type="quality-rule" originalName="Web Dynpro - Never use INCLUDE statement" active="true" detached="false" ignored="false"/>
+  <metric id="7892" type="quality-rule" originalName="Web Dynpro - Avoid changing the program flow" active="true" detached="false" ignored="false"/>
+  <metric id="7894" type="quality-rule" originalName="Avoid using LOOP INTO, use LOOP ASSIGNING instead" active="true" detached="false" ignored="false"/>
+  <metric id="7896" type="quality-rule" originalName="Avoid using Cursors" active="true" detached="true" ignored="false"/>
+  <metric id="7898" type="quality-rule" originalName="SQL Function naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7900" type="quality-rule" originalName="Stored Procedure naming convention - prefix control" active="false" detached="false" ignored="false"/>
+  <metric id="7902" type="quality-rule" originalName="Avoid SQL queries that no index can support" active="true" detached="false" ignored="false"/>
+  <metric id="7904" type="quality-rule" originalName="Avoid SQL queries on XXL tables that no index can support" active="true" detached="false" ignored="false"/>
+  <metric id="7906" type="quality-rule" originalName="Avoid testing specific values for SY-UNAME" active="true" detached="false" ignored="false"/>
+  <metric id="7908" type="quality-rule" originalName="Avoid unreferenced Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7910" type="quality-rule" originalName="Never exit a finally block with a return, break, continue, or throw" active="true" detached="false" ignored="false"/>
+  <metric id="7912" type="quality-rule" originalName="Avoid unreferenced Data Members" active="true" detached="false" ignored="false"/>
+  <metric id="7914" type="quality-rule" originalName="Avoid direct access to Database Tables" active="true" detached="false" ignored="false"/>
+  <metric id="7916" type="quality-rule" originalName="Avoid direct use of database objects" active="true" detached="false" ignored="false"/>
+  <metric id="7918" type="quality-rule" originalName="Exceptions naming convention -suffix control" active="true" detached="false" ignored="false"/>
+  <metric id="7920" type="quality-rule" originalName="Exceptions naming convention - case and character set control" active="true" detached="false" ignored="false"/>
+  <metric id="7922" type="quality-rule" originalName="Avoid usage of std::find_first_of" active="true" detached="false" ignored="false"/>
+  <metric id="7924" type="quality-rule" originalName="Avoid defining functions/methods with Structs or Classes as parameters by value" active="true" detached="false" ignored="false"/>
+  <metric id="7926" type="quality-rule" originalName="Avoid public or missing copy assignment operator in abstract classes" active="true" detached="false" ignored="false"/>
+  <metric id="7928" type="quality-rule" originalName="Avoid using static_cast on class/struct pointers" active="true" detached="true" ignored="false"/>
+  <metric id="7930" type="quality-rule" originalName="Avoid redeclaring and overriding methods with different default parameter values" active="true" detached="false" ignored="false"/>
+  <metric id="7932" type="quality-rule" originalName="Avoid constructor not supplying an initial value for all non-static data members" active="true" detached="false" ignored="false"/>
+  <metric id="7934" type="quality-rule" originalName="Avoid Superclass (or Interface) knowing Subclass (or Interface)" active="true" detached="false" ignored="false"/>
+  <metric id="7936" type="quality-rule" originalName="Avoid using finalize()" active="true" detached="false" ignored="false"/>
+  <metric id="7938" type="quality-rule" originalName="Override all overloads of a base Class virtual method" active="true" detached="false" ignored="false"/>
+  <metric id="7940" type="quality-rule" originalName="Avoid Stateful Beans not removed" active="true" detached="false" ignored="false"/>
+  <metric id="7942" type="quality-rule" originalName="Avoid EJBs using 'synchronized' qualifier, 'wait', 'notify' and 'notifyAll' Methods" active="true" detached="false" ignored="false"/>
+  <metric id="7944" type="quality-rule" originalName="Avoid High Response for Classes" active="true" detached="false" ignored="false"/>
+  <metric id="7946" type="quality-rule" originalName="Avoid queries using old style join convention  instead of ANSI-Standard joins" active="true" detached="false" ignored="false"/>
+  <metric id="7948" type="quality-rule" originalName="Do not mix Ansi joins syntax  with Oracle proprietary joins syntax in the same query" active="true" detached="false" ignored="false"/>
+  <metric id="7950" type="quality-rule" originalName="Avoid definition of synonym as PUBLIC in PL/SQL context" active="true" detached="false" ignored="false"/>
+  <metric id="7952" type="quality-rule" originalName="Avoid synonym with both private &amp; PUBLIC Definition in PL/SQL context" active="true" detached="false" ignored="false"/>
+  <metric id="7954" type="quality-rule" originalName="Avoid indirect String concatenation inside loops" active="true" detached="false" ignored="false"/>
+  <metric id="7956" type="quality-rule" originalName="Avoid indirect exception handling inside loops" active="false" detached="false" ignored="false"/>
+  <metric id="7958" type="quality-rule" originalName="Avoid orphaned synonyms in PL/SQL context" active="true" detached="false" ignored="false"/>
+  <metric id="7960" type="quality-rule" originalName="Avoid looping chain of synonyms in PL/SQL context" active="true" detached="false" ignored="false"/>
+  <metric id="7962" type="quality-rule" originalName="Avoid direct or indirect remote calls inside a loop" active="true" detached="false" ignored="false"/>
+  <metric id="7964" type="quality-rule" originalName="Avoid instantiating directly a class used as a managed bean" active="true" detached="false" ignored="false"/>
+  <metric id="7966" type="quality-rule" originalName="Avoid includes in Header Files" active="true" detached="false" ignored="false"/>
+  <metric id="7968" type="quality-rule" originalName="Never use strcat() function" active="true" detached="false" ignored="false"/>
+  <metric id="7970" type="quality-rule" originalName="Never use strcpy() function" active="true" detached="false" ignored="false"/>
+  <metric id="7972" type="quality-rule" originalName="Never use sprintf() or vsprintf() functions" active="true" detached="false" ignored="false"/>
+  <metric id="7974" type="quality-rule" originalName="Never use scanf() function" active="true" detached="true" ignored="false"/>
+  <metric id="7976" type="quality-rule" originalName="Never use gets() function" active="true" detached="false" ignored="false"/>
+  <metric id="7978" type="quality-rule" originalName="Avoid using the scanf() function family" active="true" detached="false" ignored="false"/>
+  <metric id="7980" type="quality-rule" originalName="Avoid using strtrns() function" active="true" detached="false" ignored="false"/>
+  <metric id="7982" type="quality-rule" originalName="Avoid using strlen() function" active="true" detached="false" ignored="false"/>
+  <metric id="7984" type="quality-rule" originalName="Avoid using strecpy() function" active="true" detached="false" ignored="false"/>
+  <metric id="7986" type="quality-rule" originalName="Avoid using streadd() function" active="true" detached="false" ignored="false"/>
+  <metric id="7988" type="quality-rule" originalName="Avoid using snprintf() function" active="true" detached="false" ignored="false"/>
+  <metric id="7990" type="quality-rule" originalName="Avoid using realpath() function" active="true" detached="false" ignored="false"/>
+  <metric id="7992" type="quality-rule" originalName="Avoid using getpass() function" active="true" detached="false" ignored="false"/>
+  <metric id="7994" type="quality-rule" originalName="Avoid using getopt() function" active="true" detached="false" ignored="false"/>
+  <metric id="7996" type="quality-rule" originalName="Provide a private default constructor for utility classes" active="true" detached="false" ignored="false"/>
+  <metric id="7998" type="quality-rule" originalName="Avoid local variables that are not initialized at declaration time" active="true" detached="false" ignored="false"/>
+  <metric id="8000" type="quality-rule" originalName="Avoid 'catch-all' statement" active="true" detached="false" ignored="false"/>
+  <metric id="8002" type="quality-rule" originalName="Never perform C cast between incompatible class pointers" active="true" detached="false" ignored="false"/>
+  <metric id="8004" type="quality-rule" originalName="Avoid &quot;delete this&quot; statement" active="true" detached="false" ignored="false"/>
+  <metric id="8006" type="quality-rule" originalName="Avoid class with a copy constructor and not implementing both a destructor and an assignment operator" active="true" detached="false" ignored="false"/>
+  <metric id="8008" type="quality-rule" originalName="Avoid data members that are never read" active="true" detached="false" ignored="false"/>
+  <metric id="8010" type="quality-rule" originalName="Do not overload the ampersand, comma, logical AND or logical OR operators" active="true" detached="false" ignored="false"/>
+  <metric id="8012" type="quality-rule" originalName="Avoid unchecked return code (SY-SUBRC) after opening and reading dataset" active="true" detached="false" ignored="false"/>
+  <metric id="8014" type="quality-rule" originalName="Avoid unchecked return code (SY-SUBRC) after AUTHORITY-CHECK" active="true" detached="false" ignored="false"/>
+  <metric id="8016" type="quality-rule" originalName="Avoid unsecured EJB remote method" active="true" detached="false" ignored="false"/>
+  <metric id="8022" type="quality-rule" originalName="Avoid hiding attributes" active="true" detached="false" ignored="false"/>
+  <metric id="8024" type="quality-rule" originalName="Avoid class with a non-empty destructor and not implementing both an assignment operator and a copy constructor" active="true" detached="false" ignored="false"/>
+  <metric id="8026" type="quality-rule" originalName="Avoid class with an assignment operator and not implementing both a destructor and a copy constructor" active="true" detached="false" ignored="false"/>
+  <metric id="8028" type="quality-rule" originalName="Avoid missing default in switch statements" active="true" detached="false" ignored="false"/>
+  <metric id="8030" type="quality-rule" originalName="Check alphanumeric data before moving them into numeric data" active="true" detached="false" ignored="false"/>
+  <metric id="8032" type="quality-rule" originalName="Avoid using break statement in FOR loops" active="true" detached="false" ignored="false"/>
+  <metric id="8034" type="quality-rule" originalName="Variables defined in Working-Storage section must be initialized before to be read" active="true" detached="false" ignored="false"/>
+  <metric id="8036" type="quality-rule" originalName="Avoid improperly written  triangular joins with XXL tables in PL/SQL code" active="true" detached="false" ignored="false"/>
+  <metric id="8038" type="quality-rule" originalName="Avoid Struts 2 Validator field not referencing a java class field" active="true" detached="false" ignored="false"/>
+  <metric id="8040" type="quality-rule" originalName="Avoid Struts 2 Action Fields without Validation" active="true" detached="false" ignored="false"/>
+  <metric id="8042" type="quality-rule" originalName="Struts 2 Validation: Avoid unused validation form" active="true" detached="false" ignored="false"/>
+  <metric id="8044" type="quality-rule" originalName="CWE-117: Avoid Log forging vulnerabilities" active="true" detached="false" ignored="false"/>
+  <metric id="8046" type="quality-rule" originalName="Do not return non-const handles to class data from const member functions" active="true" detached="false" ignored="false"/>
+  <metric id="8048" type="quality-rule" originalName="Ensure the form used when invoking 'delete' is the same form that was used when memory was allocated using 'new'" active="true" detached="false" ignored="false"/>
+  <metric id="8050" type="quality-rule" originalName="Do not hide declarations in other scopes" active="true" detached="false" ignored="false"/>
+  <metric id="8052" type="quality-rule" originalName="Avoid setting a pointer to the address of a local variable defined in a lower scope" active="true" detached="false" ignored="false"/>
+  <metric id="8054" type="quality-rule" originalName="Avoid calling blocking functions with an infinite timeout" active="true" detached="false" ignored="false"/>
+  <metric id="8056" type="quality-rule" originalName="Method override fails due to mismatch of const or volatile qualifiers" active="true" detached="false" ignored="false"/>
+  <metric id="8058" type="quality-rule" originalName="A pointer to a derived class shall only be cast to a pointer to base class by means of static_cast" active="true" detached="false" ignored="false"/>
+  <metric id="8060" type="quality-rule" originalName="A pointer to a base class shall only be cast to a pointer to a derived class by means of dynamic_cast" active="true" detached="false" ignored="false"/>
+  <metric id="8062" type="quality-rule" originalName="An unconditional throw, break, or return statement shall terminate every non-empty switch-clause" active="true" detached="false" ignored="false"/>
+  <metric id="8064" type="quality-rule" originalName="Assignment operator should assign all non static members of class" active="true" detached="false" ignored="false"/>
+  <metric id="8066" type="quality-rule" originalName="Avoid using &quot;Using namespace&quot; in header files" active="true" detached="false" ignored="false"/>
+  <metric id="8068" type="quality-rule" originalName="Do not return a dereferenced pointer allocated inside the function" active="true" detached="false" ignored="false"/>
+  <metric id="8070" type="quality-rule" originalName="Do not alter a control variable in the body of a for statement" active="true" detached="false" ignored="false"/>
+  <metric id="8072" type="quality-rule" originalName="Never define collection of std::auto_ptr" active="true" detached="false" ignored="false"/>
+  <metric id="8074" type="quality-rule" originalName="Avoid using class or struct parameters with variadic functions" active="true" detached="false" ignored="false"/>
+  <metric id="8076" type="quality-rule" originalName="Avoid using new[], prefer std::vector or std::array" active="true" detached="false" ignored="false"/>
+  <metric id="8078" type="quality-rule" originalName="Casting from pointer to base class to pointer to derived class should be done through dynamic_cast or static_cast" active="false" detached="false" ignored="false"/>
+  <metric id="8080" type="quality-rule" originalName="Avoid exists independent clauses" active="true" detached="false" ignored="false"/>
+  <metric id="8082" type="quality-rule" originalName="Avoid Tables without Primary Key" active="true" detached="false" ignored="false"/>
+  <metric id="8086" type="quality-rule" originalName="Avoid types that own disposable fields and are not disposable" active="true" detached="false" ignored="false"/>
+  <metric id="8088" type="quality-rule" originalName="Avoid override artifacts not having link demands identical to base" active="true" detached="false" ignored="false"/>
+  <metric id="8090" type="quality-rule" originalName="Avoid using NaN to test the result of an expression" active="true" detached="false" ignored="false"/>
+  <metric id="8092" type="quality-rule" originalName="Avoid Objects having exposed pointers allowed to access unmanaged memory" active="true" detached="false" ignored="false"/>
+  <metric id="8094" type="quality-rule" originalName="Avoid locking of Objects with weak identities" active="true" detached="false" ignored="false"/>
+  <metric id="8096" type="quality-rule" originalName="Avoid testing floating point numbers for equality" active="true" detached="false" ignored="false"/>
+  <metric id="8098" type="quality-rule" originalName="CWE-134: Avoid uncontrolled format string" active="true" detached="false" ignored="false"/>
+  <metric id="8100" type="quality-rule" originalName="Blocking synchronous calls should have associated timeouts" active="true" detached="false" ignored="false"/>
+  <metric id="8102" type="quality-rule" originalName="Avoid hardcoded network resource names (ASCRM-RLB-18)" active="true" detached="false" ignored="false"/>
+  <metric id="8104" type="quality-rule" originalName="Close database resources ASAP" active="true" detached="false" ignored="false"/>
+  <metric id="8106" type="quality-rule" originalName="Avoid empty IF-ENDIF blocks" active="true" detached="false" ignored="false"/>
+  <metric id="8108" type="quality-rule" originalName="Close the outermost stream ASAP" active="true" detached="false" ignored="false"/>
+  <metric id="8110" type="quality-rule" originalName="Avoid too many SQL calls" active="true" detached="false" ignored="false"/>
+  <metric id="8112" type="quality-rule" originalName="Avoid improper processing of the execution status of data handling operations" active="true" detached="false" ignored="false"/>
+  <metric id="8114" type="quality-rule" originalName="Avoid numerical data corruption during incompatible mutation" active="true" detached="false" ignored="false"/>
+  <metric id="8116" type="quality-rule" originalName="Avoid calling system function (CALL 'cfunc')" active="false" detached="false" ignored="false"/>
+  <metric id="8118" type="quality-rule" originalName="Avoid using the RFC_ABAP_INSTALL_AND_RUN function" active="false" detached="false" ignored="false"/>
+  <metric id="8120" type="quality-rule" originalName="Avoid using CALL FUNCTION without error handling" active="false" detached="false" ignored="false"/>
+  <metric id="8122" type="quality-rule" originalName="Avoid using CALL METHOD without error handling" active="false" detached="false" ignored="false"/>
+  <metric id="8124" type="quality-rule" originalName="Do not use function module DB_EXISTS_INDEX (HANA)" active="false" detached="false" ignored="false"/>
+  <metric id="8126" type="quality-rule" originalName="Avoid using empty SELECT ... ENDSELECT loop" active="false" detached="false" ignored="false"/>
+  <metric id="8128" type="quality-rule" originalName="Avoid using UPDATE and DELETE without WHERE condition" active="false" detached="false" ignored="false"/>
+  <metric id="8130" type="quality-rule" originalName="Avoid using database hints" active="false" detached="false" ignored="false"/>
+  <metric id="8132" type="quality-rule" originalName="Avoid using CHECK, EXIT,or RETURN in SELECT ... ENDSELECT loops" active="false" detached="false" ignored="false"/>
+  <metric id="8134" type="quality-rule" originalName="Avoid unsorted data after SELECT queries" active="false" detached="false" ignored="false"/>
+  <metric id="8136" type="quality-rule" originalName="Beans with normal scope must be proxyable to avoid runtime errors"  active="true" detached="false" ignored="false"/>
+  <metric id="8140" type="quality-rule" originalName="Subscripts and iterators must be defined with BINARY usage" active="true" detached="false" ignored="false"/>
+  <metric id="8142" type="quality-rule" originalName="Prefer using indexes instead of subscripts" active="true" detached="false" ignored="false"/>
+  <metric id="8144" type="quality-rule" originalName="Avoid using INITIALIZE statement on data structures" active="true" detached="false" ignored="false"/>
+  <metric id="8146" type="quality-rule" originalName="Avoid calling programs statically" active="true" detached="false" ignored="false"/>
+  <metric id="8148" type="quality-rule" originalName="Avoid artifacts having Incorrect Type Conversion or Cast" active="true" detached="false" ignored="false"/>
+  <metric id="8150" type="quality-rule" originalName="Avoid using Parse for primitive types and use TryParse instead" active="true" detached="false" ignored="false"/>
+  <metric id="8152" type="quality-rule" originalName="Avoid having transaction with the Thread.Sleep method in a loop" active="true" detached="false" ignored="false"/>
+  <metric id="8154" type="quality-rule" originalName="Avoid using GC.Collect()" active="true" detached="false" ignored="false"/>
+  <metric id="8156" type="quality-rule" originalName="Persistent classes should implement GetHashCode() and Equals()" active="true" detached="false" ignored="false"/>
+  <metric id="8158" type="quality-rule" originalName="Runtime Resource Management Control Element in a Component Built to Run on Application Servers" active="true" detached="false" ignored="false"/>
+  <metric id="8160" type="quality-rule" originalName="Check PCB status code after DLI queries" active="true" detached="false" ignored="false"/>
+  <metric id="8162" type="quality-rule" originalName="CICS return code should be checked" active="true" detached="false" ignored="false"/>
+  <metric id="8164" type="quality-rule" originalName="Never use strcat() function" active="true" detached="false" ignored="true"/>
+  <metric id="8166" type="quality-rule" originalName="Never use strcpy() function" active="true" detached="false" ignored="true"/>
+  <metric id="8168" type="quality-rule" originalName="Avoid return statement in @finally block" active="true" detached="false" ignored="true"/>
+  <metric id="8170" type="quality-rule" originalName="Avoid using deprecated SSL protocol" active="true" detached="false" ignored="true"/>
+  <metric id="8172" type="quality-rule" originalName="Avoid using kSecAttrAccessibleAlways attribute when storing data in the Keychain" active="true" detached="false" ignored="true"/>
+  <metric id="8174" type="quality-rule" originalName="Avoid using non thread-safe Objective-C singleton pattern" active="true" detached="false" ignored="true"/>
+  <metric id="8176" type="quality-rule" originalName="Always use LAContext canEvaluatePolicy: before using evaluatePolicy:" active="true" detached="false" ignored="true"/>
+  <metric id="8178" type="quality-rule" originalName="Ensure the Objective-C error condition check is not fragile" active="true" detached="false" ignored="true"/>
+  <metric id="8180" type="quality-rule" originalName="Ensure that LAContext evaluatePolicy: reply block success is checked" active="true" detached="false" ignored="true"/>
+  <metric id="8182" type="quality-rule" originalName="Ensure that LAContext evaluatePolicy: reply block is not empty" active="true" detached="false" ignored="true"/>
+  <metric id="8184" type="quality-rule" originalName="Ensure that iOS Projects are ARC enabled" active="true" detached="false" ignored="true"/>
+  <metric id="8186" type="quality-rule" originalName="Avoid using NSURLRequestUseProtocolCachePolicy for NSURLRequest" active="true" detached="false" ignored="true"/>
+  <metric id="8188" type="quality-rule" originalName="Avoid C-Style cast between incompatible pointers" active="true" detached="false" ignored="true"/>
+  <metric id="8190" type="quality-rule" originalName="Make base class destructor public and virtual, or protected and non virtual" active="true" detached="false" ignored="true"/>
+  <metric id="8192" type="quality-rule" originalName="Avoid all non-static data members not initialize in constructor" active="true" detached="false" ignored="true"/>
+  <metric id="8194" type="quality-rule" originalName="Method override fails due to slight differences when compared with base class method" active="true" detached="false" ignored="true"/>
+  <metric id="8196" type="quality-rule" originalName="Avoid using auto_ptr" active="true" detached="false" ignored="true"/>
+  <metric id="8198" type="quality-rule" originalName="Avoid using the call of web service with iOS/Objective-C API inside a loop" active="true" detached="false" ignored="true"/>
+  <metric id="8200" type="quality-rule" originalName="Avoid using NSString stringWithFormat on behalf of NSURL instance" active="true" detached="false" ignored="true"/>
+  <metric id="8202" type="quality-rule" originalName="Avoid using NSPredicate predicateWithFormat" active="true" detached="false" ignored="true"/>
+  <metric id="8204" type="quality-rule" originalName="Avoid using NSException raise:format: and raise:format:arguments:" active="true" detached="false" ignored="true"/>
+  <metric id="8206" type="quality-rule" originalName="Avoid using NSMutableString appendFormat: on behalf of NSURL instance" active="true" detached="false" ignored="true"/>
+  <metric id="8208" type="quality-rule" originalName="Avoid using NSURLRequest setAllowsAnyHTTPSCertificate:forHost" active="true" detached="false" ignored="true"/>
+  <metric id="8210" type="quality-rule" originalName="Objective-C interface overrides the isEqual: method but not the hash method" active="true" detached="false" ignored="true"/>
+  <metric id="8212" type="quality-rule" originalName="UIApplication delegate applicationDidEnterBackground: must delete sensitive data" active="true" detached="false" ignored="true"/>
+  <metric id="8214" type="quality-rule" originalName="Expired or Released Resource should not be used(CWE-672)" active="true" detached="false" ignored="false"/>
+  <metric id="8216" type="quality-rule" originalName="Avoid numerical data corruption during incompatible mutation" active="true" detached="false" ignored="false"/>
+  <metric id="8218" type="quality-rule" originalName="Content type should be checked when receiving a HTTP Post(CWE-434)" active="true" detached="false" ignored="false"/>
+  <metric id="8220" type="quality-rule" originalName="Avoid using deprecated method, constructor, field, type or package" active="true" detached="false" ignored="false"/>
+  <metric id="8222" type="quality-rule" originalName="CWE-798 : Use of Hard-coded Credentials" active="true" detached="false" ignored="false"/>
+  <metric id="8224" type="quality-rule" originalName="Avoid creating file without protection" active="true" detached="false" ignored="true"/>
+  <metric id="8226" type="quality-rule" originalName="Avoid Weak Encryption Algorithm" active="true" detached="false" ignored="true"/>
+  <metric id="8228" type="quality-rule" originalName="Avoid using cryptography hash without salt" active="true" detached="false" ignored="true"/>
+  <metric id="8230" type="quality-rule" originalName="Avoid synchronizing the credentials with iCloud" active="true" detached="false" ignored="true"/>
+  <metric id="8232" type="quality-rule" originalName="Avoid weak encryption providing sufficient key size" active="true" detached="false" ignored="true"/>
+  <metric id="8234" type="quality-rule" originalName="Avoid using SecTransform API" active="true" detached="false" ignored="true"/>
+  <metric id="10107" type="sizing-measure" originalName="Number of Comment Lines" active="true" detached="false" ignored="false"/>
+  <metric id="10109" type="sizing-measure" originalName="Number of Commented-out Code Lines" active="true" detached="false" ignored="false"/>
+  <metric id="10151" type="sizing-measure" originalName="Number of Code Lines" active="true" detached="false" ignored="false"/>
+  <metric id="10152" type="sizing-measure" originalName="Number of Artifacts" active="true" detached="false" ignored="false"/>
+  <metric id="10154" type="sizing-measure" originalName="Number of Files" active="true" detached="false" ignored="false"/>
+  <metric id="10155" type="sizing-measure" originalName="Number of Classes" active="true" detached="false" ignored="false"/>
+  <metric id="10156" type="sizing-measure" originalName="Number of Programs" active="true" detached="false" ignored="false"/>
+  <metric id="10157" type="sizing-measure" originalName="Number of Forms" active="true" detached="false" ignored="false"/>
+  <metric id="10158" type="sizing-measure" originalName="Number of SQL Artifacts" active="true" detached="false" ignored="false"/>
+  <metric id="10159" type="sizing-measure" originalName="Number of WEB Pages" active="true" detached="false" ignored="false"/>
+  <metric id="10160" type="sizing-measure" originalName="Number of Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="10161" type="sizing-measure" originalName="Number of Methods" active="true" detached="false" ignored="false"/>
+  <metric id="10162" type="sizing-measure" originalName="Number of Functions" active="true" detached="false" ignored="false"/>
+  <metric id="10163" type="sizing-measure" originalName="Number of Tables" active="true" detached="false" ignored="false"/>
+  <metric id="10164" type="sizing-measure" originalName="Number of Views" active="true" detached="false" ignored="false"/>
+  <metric id="10165" type="sizing-measure" originalName="Number of Triggers" active="true" detached="false" ignored="false"/>
+  <metric id="10166" type="sizing-measure" originalName="Number of Packages" active="true" detached="false" ignored="false"/>
+  <metric id="10167" type="sizing-measure" originalName="Number of Events" active="true" detached="false" ignored="false"/>
+  <metric id="10201" type="sizing-measure" originalName="Backfired Function Points" active="true" detached="false" ignored="false"/>
+  <metric id="10202" type="sizing-measure" originalName="OMG-Compliant Automated Function Points" active="true" detached="false" ignored="false"/>
+  <metric id="10203" type="sizing-measure" originalName="OMG-Compliant Automated Data Function Points" active="true" detached="false" ignored="false"/>
+  <metric id="10204" type="sizing-measure" originalName="OMG-Compliant Automated Transactional Function Points" active="true" detached="false" ignored="false"/>
+  <metric id="10250" type="folder" originalName="Enhancement Function Points" active="true" detached="N/A" ignored="false"/>
+  <metric id="10260" type="folder" originalName="Automated Enhancement Points" active="true" detached="N/A" ignored="false"/>
+  <metric id="10300" type="sizing-measure" originalName="Total Automated Function Points Added" active="true" detached="false" ignored="false"/>
+  <metric id="10301" type="sizing-measure" originalName="Automated Data Function Points Added" active="true" detached="false" ignored="false"/>
+  <metric id="10302" type="sizing-measure" originalName="Automated Transactional Function Points Added" active="true" detached="false" ignored="false"/>
+  <metric id="10310" type="sizing-measure" originalName="Total Automated Function Points Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10311" type="sizing-measure" originalName="Automated Data Function Points Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10312" type="sizing-measure" originalName="Automated Transactional Function Points Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10320" type="sizing-measure" originalName="Total Automated Function Points Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10321" type="sizing-measure" originalName="Automated Data Function Points Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10322" type="sizing-measure" originalName="Automated Transactional Function Points Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10330" type="sizing-measure" originalName="Automated Function Points UnChanged" active="true" detached="false" ignored="false"/>
+  <metric id="10331" type="sizing-measure" originalName="Number of function points in UnChanged data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10332" type="sizing-measure" originalName="Number of function points in UnChanged transactions" active="true" detached="false" ignored="false"/>
+  <metric id="10340" type="sizing-measure" originalName="Enhanced Automated Function Points Total" active="true" detached="false" ignored="false"/>
+  <metric id="10341" type="sizing-measure" originalName="Number of function points in enhanced data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10342" type="sizing-measure" originalName="Number of function points in enhanced transactions" active="true" detached="false" ignored="false"/>
+  <metric id="10350" type="sizing-measure" originalName="Effort Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="10351" type="sizing-measure" originalName="Effort Complexity Added" active="true" detached="false" ignored="false"/>
+  <metric id="10352" type="sizing-measure" originalName="Effort Complexity Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10353" type="sizing-measure" originalName="Effort Complexity Updated" active="true" detached="false" ignored="false"/>
+  <metric id="10354" type="sizing-measure" originalName="Effort Complexity Unchanged" active="true" detached="false" ignored="false"/>
+  <metric id="10355" type="sizing-measure" originalName="Effort Complexity Variation" active="true" detached="false" ignored="false"/>
+  <metric id="10356" type="sizing-measure" originalName="Effort Complexity Evolution" active="true" detached="false" ignored="false"/>
+  <metric id="10357" type="sizing-measure" originalName="Effort Complexity Shared" active="true" detached="false" ignored="false"/>
+  <metric id="10358" type="sizing-measure" originalName="Effort Complexity Evolved Shared" active="true" detached="false" ignored="false"/>
+  <metric id="10359" type="sizing-measure" originalName="Equivalence Ratio" active="true" detached="false" ignored="false"/>
+  <metric id="10360" type="sizing-measure" originalName="Implementation Points AEFP" active="true" detached="false" ignored="false"/>
+  <metric id="10362" type="sizing-measure" originalName="Implementation Points AETP" active="true" detached="false" ignored="false"/>
+  <metric id="10400" type="sizing-measure" originalName="AEFP Added" active="true" detached="false" ignored="false"/>
+  <metric id="10401" type="sizing-measure" originalName="AEFP Added Data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10402" type="sizing-measure" originalName="AEFP Added Transactional functions" active="true" detached="false" ignored="false"/>
+  <metric id="10410" type="sizing-measure" originalName="AEFP Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10411" type="sizing-measure" originalName="AEFP Deleted Data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10412" type="sizing-measure" originalName="AEFP Deleted Transactional functions" active="true" detached="false" ignored="false"/>
+  <metric id="10420" type="sizing-measure" originalName="AEFP Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10421" type="sizing-measure" originalName="AEFP Modified Data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10422" type="sizing-measure" originalName="AEFP Modified Transactional functions" active="true" detached="false" ignored="false"/>
+  <metric id="10430" type="sizing-measure" originalName="AEFP" active="true" detached="false" ignored="false"/>
+  <metric id="10431" type="sizing-measure" originalName="AEFP Data functions" active="true" detached="false" ignored="false"/>
+  <metric id="10432" type="sizing-measure" originalName="AEFP Transactional functions" active="true" detached="false" ignored="false"/>
+  <metric id="10440" type="sizing-measure" originalName="AETP" active="true" detached="false" ignored="false"/>
+  <metric id="10441" type="sizing-measure" originalName="AETP Added" active="true" detached="false" ignored="false"/>
+  <metric id="10442" type="sizing-measure" originalName="AETP Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10443" type="sizing-measure" originalName="AETP Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10450" type="sizing-measure" originalName="AEP" active="true" detached="false" ignored="false"/>
+  <metric id="10451" type="sizing-measure" originalName="AEP Added" active="true" detached="false" ignored="false"/>
+  <metric id="10452" type="sizing-measure" originalName="AEP Deleted" active="true" detached="false" ignored="false"/>
+  <metric id="10453" type="sizing-measure" originalName="AEP Modified" active="true" detached="false" ignored="false"/>
+  <metric id="10460" type="sizing-measure" originalName="Number Of Evolved Transactions" active="true" detached="false" ignored="false"/>
+  <metric id="10461" type="sizing-measure" originalName="Number Of Transactions" active="true" detached="false" ignored="false"/>
+  <metric id="10470" type="sizing-measure" originalName="Number Of Enhanced Shared Artifacts" active="true" detached="false" ignored="false"/>
+  <metric id="10471" type="sizing-measure" originalName="Number Of Enhanced Specific Artifacts" active="true" detached="false" ignored="false"/>
+  <metric id="10506" type="sizing-measure" originalName="Number of Decision Points" active="true" detached="false" ignored="false"/>
+  <metric id="19168" type="sizing-measure" originalName="Number of Macros" active="true" detached="false" ignored="false"/>
+  <metric id="19169" type="sizing-measure" originalName="Number of Datawindows" active="true" detached="false" ignored="false"/>
+  <metric id="19170" type="sizing-measure" originalName="Number of Userobjects" active="true" detached="false" ignored="false"/>
+  <metric id="19171" type="sizing-measure" originalName="Number of Sections" active="true" detached="false" ignored="false"/>
+  <metric id="19172" type="sizing-measure" originalName="Number of Paragraphs" active="true" detached="false" ignored="false"/>
+  <metric id="19173" type="sizing-measure" originalName="Number of Copybooks" active="true" detached="false" ignored="false"/>
+  <metric id="19174" type="sizing-measure" originalName="Number of Datablocks" active="true" detached="false" ignored="false"/>
+  <metric id="19175" type="sizing-measure" originalName="Number of Functions and Procedures" active="true" detached="false" ignored="false"/>
+  <metric id="19176" type="sizing-measure" originalName="Number of Namespaces" active="true" detached="false" ignored="false"/>
+  <metric id="19177" type="sizing-measure" originalName="Number of Modules" active="true" detached="false" ignored="false"/>
+  <metric id="19178" type="sizing-measure" originalName="Number of Units" active="true" detached="false" ignored="false"/>
+  <metric id="19179" type="sizing-measure" originalName="Number of ABAP programs" active="false" detached="true" ignored="true"/>
+  <metric id="19180" type="sizing-measure" originalName="Number of Includes" active="true" detached="false" ignored="false"/>
+  <metric id="19181" type="sizing-measure" originalName="Number of Function Pools" active="true" detached="false" ignored="false"/>
+  <metric id="19182" type="sizing-measure" originalName="Number of Processing Screens" active="true" detached="false" ignored="false"/>
+  <metric id="19183" type="sizing-measure" originalName="Number of Template Classes" active="true" detached="false" ignored="false"/>
+  <metric id="19184" type="sizing-measure" originalName="Number of Template Class Instances" active="true" detached="false" ignored="false"/>
+  <metric id="19185" type="sizing-measure" originalName="Number of Template Interfaces" active="true" detached="false" ignored="false"/>
+  <metric id="19186" type="sizing-measure" originalName="Number of Template Interface Instances" active="true" detached="false" ignored="false"/>
+  <metric id="19187" type="sizing-measure" originalName="Number of Template Methods" active="true" detached="false" ignored="false"/>
+  <metric id="19188" type="sizing-measure" originalName="Number of Template Method Instances" active="true" detached="false" ignored="false"/>
+  <metric id="19189" type="sizing-measure" originalName="Number of Template Functions" active="true" detached="false" ignored="false"/>
+  <metric id="19190" type="sizing-measure" originalName="Number of Template Function Instances" active="true" detached="false" ignored="false"/>
+  <metric id="19191" type="sizing-measure" originalName="Number of ABAP User-Exits" active="true" detached="false" ignored="false"/>
+  <metric id="19192" type="sizing-measure" originalName="Number of ABAP Transactions" active="true" detached="false" ignored="false"/>
+  <metric id="60001" type="folder" originalName="General Summary" active="true" detached="N/A" ignored="false"/>
+  <metric id="60002" type="folder" originalName="Initializations" active="true" detached="N/A" ignored="false"/>
+  <metric id="60003" type="folder" originalName="Technical Size" active="true" detached="N/A" ignored="false"/>
+  <metric id="60004" type="folder" originalName="Functional Weight" active="true" detached="N/A" ignored="false"/>
+  <metric id="60005" type="folder" originalName="Technical Criteria" active="true" detached="N/A" ignored="false"/>
+  <metric id="60006" type="folder" originalName="Move Quality Rules results - Reserved ID for internal.platform extension" active="true" detached="N/A" ignored="true"/>
+  <metric id="60010" type="folder" originalName="Health Factors" active="true" detached="N/A" ignored="false"/>
+  <metric id="60011" type="business-criterion" originalName="Transferability" active="true" detached="false" ignored="false"/>
+  <metric id="60012" type="business-criterion" originalName="Changeability" active="true" detached="false" ignored="false"/>
+  <metric id="60013" type="business-criterion" originalName="Robustness" active="true" detached="false" ignored="false"/>
+  <metric id="60014" type="business-criterion" originalName="Performance" active="true" detached="false" ignored="false"/>
+  <metric id="60015" type="business-criterion" originalName="SEI Maintainability" active="true" detached="false" ignored="false"/>
+  <metric id="60016" type="business-criterion" originalName="Security" active="true" detached="false" ignored="false"/>
+  <metric id="60017" type="business-criterion" originalName="Technical Quality Index" active="true" detached="false" ignored="false"/>
+  <metric id="61001" type="technical-criterion" originalName="Architecture - Multi-Layers and Data Access" active="true" detached="false" ignored="false"/>
+  <metric id="61003" type="technical-criterion" originalName="Programming Practices - OO Inheritance and Polymorphism" active="true" detached="false" ignored="false"/>
+  <metric id="61004" type="technical-criterion" originalName="Architecture - OS and Platform Independence" active="true" detached="false" ignored="false"/>
+  <metric id="61006" type="technical-criterion" originalName="Documentation - Style Conformity" active="true" detached="false" ignored="false"/>
+  <metric id="61007" type="technical-criterion" originalName="Documentation - Bad Comments" active="true" detached="false" ignored="false"/>
+  <metric id="61008" type="technical-criterion" originalName="Documentation - Automated Documentation" active="true" detached="false" ignored="false"/>
+  <metric id="61009" type="technical-criterion" originalName="Complexity - Algorithmic and Control Structure Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="61010" type="technical-criterion" originalName="Complexity - OO Inheritance and Polymorphism" active="true" detached="false" ignored="false"/>
+  <metric id="61011" type="technical-criterion" originalName="Complexity - SQL Queries" active="true" detached="false" ignored="false"/>
+  <metric id="61013" type="technical-criterion" originalName="Architecture - Object-level Dependencies" active="true" detached="false" ignored="false"/>
+  <metric id="61014" type="technical-criterion" originalName="Programming Practices - Error and Exception Handling" active="true" detached="false" ignored="false"/>
+  <metric id="61015" type="technical-criterion" originalName="Programming Practices - File Organization Conformity" active="true" detached="false" ignored="false"/>
+  <metric id="61016" type="technical-criterion" originalName="Maintainability Indexes (SEI)" active="true" detached="false" ignored="false"/>
+  <metric id="61017" type="technical-criterion" originalName="Documentation - Naming Convention Conformity" active="true" detached="false" ignored="false"/>
+  <metric id="61018" type="technical-criterion" originalName="Efficiency - Memory, Network and Disk Space Management" active="true" detached="false" ignored="false"/>
+  <metric id="61019" type="technical-criterion" originalName="Efficiency - SQL and Data Handling Performance" active="true" detached="false" ignored="false"/>
+  <metric id="61020" type="technical-criterion" originalName="Programming Practices - Modularity and OO Encapsulation Conformity" active="true" detached="false" ignored="false"/>
+  <metric id="61022" type="technical-criterion" originalName="Volume - Number of Components" active="true" detached="false" ignored="false"/>
+  <metric id="61023" type="technical-criterion" originalName="Volume - Number of LOC" active="true" detached="false" ignored="false"/>
+  <metric id="61024" type="technical-criterion" originalName="Programming Practices - Structuredness" active="true" detached="false" ignored="false"/>
+  <metric id="61026" type="technical-criterion" originalName="Complexity - Technical Complexity" active="true" detached="false" ignored="false"/>
+  <metric id="61027" type="technical-criterion" originalName="Dead code (static)" active="true" detached="false" ignored="false"/>
+  <metric id="61028" type="technical-criterion" originalName="Documentation - Volume of Comments" active="true" detached="false" ignored="false"/>
+  <metric id="61029" type="technical-criterion" originalName="Complexity - Dynamic Instantiation" active="true" detached="false" ignored="false"/>
+  <metric id="61031" type="technical-criterion" originalName="Complexity - Empty Code" active="true" detached="false" ignored="false"/>
+  <metric id="62003" type="quality-measure" originalName="SEI Maintainability Index 3" active="true" detached="false" ignored="false"/>
+  <metric id="62004" type="quality-measure" originalName="SEI Maintainability Index 4" active="true" detached="false" ignored="false"/>
+  <metric id="65005" type="cost" originalName="Cost Complexity" active="true" detached="N/A" ignored="false"/>
+  <metric id="65101" type="quality-distribution-category" originalName="Small Size Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65102" type="quality-distribution-category" originalName="Average Size Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65103" type="quality-distribution-category" originalName="Large Size Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65104" type="quality-distribution-category" originalName="Very Large Size Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65105" type="quality-distribution" originalName="Size Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65301" type="quality-distribution-category" originalName="Low Coupling Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65302" type="quality-distribution-category" originalName="Average Coupling Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65303" type="quality-distribution-category" originalName="High Coupling Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65304" type="quality-distribution-category" originalName="Very High Coupling Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65350" type="quality-distribution" originalName="Coupling Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65501" type="quality-distribution" originalName="Cyclomatic Complexity Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65502" type="quality-distribution-category" originalName="Low Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65503" type="quality-distribution-category" originalName="Moderate Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65504" type="quality-distribution-category" originalName="High Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65505" type="quality-distribution-category" originalName="Very High Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65601" type="quality-distribution" originalName="4GL Complexity Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65602" type="quality-distribution-category" originalName="Low 4GL Complexity Forms" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65603" type="quality-distribution-category" originalName="Moderate 4GL Complexity Forms" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65604" type="quality-distribution-category" originalName="High 4GL Complexity Forms" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65605" type="quality-distribution-category" originalName="Very High 4GL Complexity Forms" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65701" type="quality-distribution" originalName="OO Complexity Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65702" type="quality-distribution-category" originalName="Low OO Complexity Class" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65703" type="quality-distribution-category" originalName="Moderate OO Complexity Class" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65704" type="quality-distribution-category" originalName="High OO Complexity Class" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65705" type="quality-distribution-category" originalName="Very High OO Complexity Class" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65801" type="quality-distribution" originalName="SQL Complexity Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="65802" type="quality-distribution-category" originalName="Low SQL Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65803" type="quality-distribution-category" originalName="Moderate SQL Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65804" type="quality-distribution-category" originalName="High SQL Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="65805" type="quality-distribution-category" originalName="Very High SQL Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66000" type="folder" originalName="Productivity" active="true" detached="N/A" ignored="false"/>
+  <metric id="66001" type="background-fact" originalName="Effort" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66002" type="background-fact" originalName="Cost" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66003" type="background-fact" originalName="Enhancement Function Points" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66004" type="background-fact" originalName="Delivered Feature Requests" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66005" type="background-fact" originalName="Pending Feature Requests" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66006" type="background-fact" originalName="Delivered Fixes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66007" type="background-fact" originalName="Pending Fixes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66008" type="technical-criterion" originalName="Complexity - Functional Evolvability" active="true" detached="true" ignored="false"/>
+  <metric id="66009" type="technical-criterion" originalName="Architecture - Reuse" active="true" detached="false" ignored="false"/>
+  <metric id="66010" type="quality-distribution" originalName="Reuse by Call Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="66011" type="quality-distribution-category" originalName="Very High Reuse by Call" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66012" type="quality-distribution-category" originalName="High Reuse by Call" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66013" type="quality-distribution-category" originalName="Average Reuse by Call" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66014" type="quality-distribution-category" originalName="Low Reuse by Call" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66015" type="quality-distribution" originalName="Class Complexity Distribution (WMC)" active="true" detached="false" ignored="false"/>
+  <metric id="66016" type="quality-distribution-category" originalName="Very High Complexity classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66017" type="quality-distribution-category" originalName="High Complexity classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66018" type="quality-distribution-category" originalName="Moderate Complexity classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66019" type="quality-distribution-category" originalName="Low Complexity classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66020" type="quality-distribution" originalName="Class Fan-Out Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="66021" type="quality-distribution" originalName="Class Fan-In Distribution" active="true" detached="false" ignored="false"/>
+  <metric id="66022" type="quality-distribution-category" originalName="Very High Fan-Out classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66023" type="quality-distribution-category" originalName="High Fan-Out classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66024" type="quality-distribution-category" originalName="Moderate Fan-Out classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66025" type="quality-distribution-category" originalName="Low Fan-Out classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66026" type="quality-distribution-category" originalName="Very High Fan-In classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66027" type="quality-distribution-category" originalName="High Fan-In classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66028" type="quality-distribution-category" originalName="Moderate Fan-In classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66029" type="quality-distribution-category" originalName="Low Fan-In classes" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66030" type="folder" originalName="Rule Compliance" active="true" detached="N/A" ignored="false"/>
+  <metric id="66031" type="business-criterion" originalName="Programming Practices" active="true" detached="false" ignored="false"/>
+  <metric id="66032" type="business-criterion" originalName="Architectural Design" active="true" detached="false" ignored="false"/>
+  <metric id="66033" type="business-criterion" originalName="Documentation" active="true" detached="false" ignored="false"/>
+  <metric id="66060" type="folder" originalName="Business Value" active="true" detached="N/A" ignored="false"/>
+  <metric id="66061" type="user" originalName="Business Value" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" active="true" detached="false" ignored="false"/>
+  <metric id="66063" type="technical-criterion" originalName="Secure Coding - API Abuse" active="true" detached="false" ignored="false"/>
+  <metric id="66064" type="technical-criterion" originalName="Secure Coding - Weak Security Features" active="true" detached="true" ignored="false"/>
+  <metric id="66065" type="technical-criterion" originalName="Secure Coding - Time and State" active="true" detached="false" ignored="false"/>
+  <metric id="66066" type="technical-criterion" originalName="Secure Coding - Encapsulation" active="true" detached="false" ignored="false"/>
+  <metric id="66067" type="quality-measure" originalName="Avoid High Volume of Copy Pasted Code" active="true" detached="false" ignored="false"/>
+  <metric id="66068" type="technical-criterion" originalName="Efficiency - Expensive Calls in Loops" active="true" detached="false" ignored="false"/>
+  <metric id="66069" type="technical-criterion" originalName="Programming Practices - Unexpected Behavior" active="true" detached="false" ignored="false"/>
+  <metric id="66070" type="technical-criterion" originalName="Architecture - Architecture Models Automated Checks" active="true" detached="false" ignored="false"/>
+  <metric id="67000" type="folder" originalName="Critical Violation Statistics" active="true" detached="N/A" ignored="false"/>
+  <metric id="67001" type="quality-distribution" originalName="Cost Complexity distribution" active="true" detached="false" ignored="false"/>
+  <metric id="67002" type="quality-distribution-category" originalName="Very High Cost Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67003" type="quality-distribution-category" originalName="High Cost Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67004" type="quality-distribution-category" originalName="Average Cost Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67005" type="quality-distribution-category" originalName="Low Cost Complexity Artifacts" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67010" type="sizing-measure" originalName="Number of critical diagnostic-based metrics with violations" active="true" detached="false" ignored="false"/>
+  <metric id="67011" type="sizing-measure" originalName="Number of violations to critical diagnostic-based metrics" active="true" detached="false" ignored="false"/>
+  <metric id="67012" type="sizing-measure" originalName="number of violations to critical diagnostic-based metrics per file (average)" active="true" detached="false" ignored="false"/>
+  <metric id="67013" type="sizing-measure" originalName="number of violations to critical diagnostic-based metrics per KLOC (average)" active="true" detached="false" ignored="false"/>
+  <metric id="67014" type="sizing-measure" originalName="Number of critical diagnostic-based metrics with violations in new and modified code" active="true" detached="false" ignored="false"/>
+  <metric id="67015" type="sizing-measure" originalName="Number of violations to critical diagnostic-based metrics in new and modified code" active="true" detached="false" ignored="false"/>
+  <metric id="67020" type="quality-distribution" originalName="Distribution of violations to critical diagnostic-based metrics per cost complexity" active="true" detached="false" ignored="false"/>
+  <metric id="67021" type="quality-distribution-category" originalName="Very High Cost Complexity Violations" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67022" type="quality-distribution-category" originalName="High Cost Complexity Violations" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67023" type="quality-distribution-category" originalName="Average Cost Complexity Violations" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67024" type="quality-distribution-category" originalName="Low Cost Complexity Violations" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67030" type="quality-distribution" originalName="Distribution of defects to critical diagnostic-based metrics per cost complexity" active="true" detached="false" ignored="false"/>
+  <metric id="67031" type="quality-distribution-category" originalName="Very High Cost Complexity Defects" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67032" type="quality-distribution-category" originalName="High Cost Complexity Defects" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67033" type="quality-distribution-category" originalName="Average Cost Complexity Defects" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67034" type="quality-distribution-category" originalName="Low Cost Complexity Defects" active="N/A" detached="N/A" ignored="false"/>
+  <metric id="67200" type="folder" originalName="Violation Statistics" active="true" detached="N/A" ignored="false"/>
+  <metric id="67210" type="sizing-measure" originalName="Number of diagnostic-based metrics with violations" active="true" detached="false" ignored="false"/>
+  <metric id="67211" type="sizing-measure" originalName="Number of violations to diagnostic-based metrics" active="true" detached="false" ignored="false"/>
+  <metric id="67212" type="sizing-measure" originalName="number of violations to diagnostic-based metrics per file (average)" active="true" detached="false" ignored="false"/>
+  <metric id="67213" type="sizing-measure" originalName="number of violations to diagnostic-based metrics per KLOC (average)" active="true" detached="false" ignored="false"/>
+  <metric id="67214" type="sizing-measure" originalName="Number of diagnostic-based metrics with violations in new and modified code" active="true" detached="false" ignored="false"/>
+  <metric id="67215" type="sizing-measure" originalName="Number of violations to diagnostic-based metrics in new and modified code" active="true" detached="false" ignored="false"/>
+  <metric id="67216" type="sizing-measure" originalName="Number of pending violations in the action plan" active="true" detached="false" ignored="false"/>
+  <metric id="67217" type="sizing-measure" originalName="Number of fixed violations in the action plan" active="true" detached="false" ignored="false"/>
+  <metric id="67218" type="sizing-measure" originalName="Number of exclusions" active="true" detached="false" ignored="false"/>
+  <metric id="67901" type="delta" originalName="Delta critical violations added" active="true" detached="false" ignored="false"/>
+  <metric id="67902" type="delta" originalName="Delta critical violations removed" active="true" detached="false" ignored="false"/>
+  <metric id="67921" type="delta" originalName="Delta violations added" active="true" detached="false" ignored="false"/>
+  <metric id="67922" type="delta" originalName="Delta violations removed" active="true" detached="false" ignored="false"/>
+  <metric id="68000" type="folder" originalName="Technical Debt Statistics" active="true" detached="N/A" ignored="false"/>
+  <metric id="68001" type="sizing-measure" originalName="Total Technical Debt" active="true" detached="false" ignored="false"/>
+  <metric id="68002" type="sizing-measure" originalName="Total Technical Debt per KLOC" active="true" detached="false" ignored="false"/>
+  <metric id="68901" type="sizing-measure" originalName="Technical Debt Added in Current Release" active="true" detached="false" ignored="false"/>
+  <metric id="68902" type="sizing-measure" originalName="Technical Debt Removed in Current Release" active="true" detached="false" ignored="false"/>
+  <metric id="69001" type="cost" originalName="Init global" active="true" detached="N/A" ignored="false"/>
+  <metric id="69002" type="cost" originalName="Init technologies" active="true" detached="N/A" ignored="false"/>
+  <metric id="69003" type="cost" originalName="Init forms" active="true" detached="N/A" ignored="false"/>
+  <metric id="69004" type="cost" originalName="Init OMG-Compliant data" active="true" detached="N/A" ignored="false"/>
+  <metric id="69005" type="cost" originalName="Init OMG-Compliant graph" active="true" detached="N/A" ignored="false"/>
+  <metric id="69006" type="cost" originalName="Init artifacts" active="true" detached="N/A" ignored="false"/>
+  <metric id="69007" type="cost" originalName="Init classes" active="true" detached="N/A" ignored="false"/>
+  <metric id="69008" type="cost" originalName="Init SQL artifacts" active="true" detached="N/A" ignored="false"/>
+  <metric id="69009" type="cost" originalName="Init sources" active="true" detached="N/A" ignored="false"/>
+  <metric id="69010" type="cost" originalName="Init packages" active="true" detached="N/A" ignored="false"/>
+  <metric id="69011" type="cost" originalName="Init modules" active="true" detached="N/A" ignored="false"/>
+  <metric id="69012" type="cost" originalName="Init module interactions" active="true" detached="N/A" ignored="false"/>
+  <metric id="69013" type="cost" originalName="Init OMG-Compliant integration" active="true" detached="N/A" ignored="false"/>
+  <metric id="69014" type="cost" originalName="Init Metric Param Integration" active="true" detached="N/A" ignored="false"/>
+  <metric id="69015" type="cost" originalName="Init object sets" active="true" detached="N/A" ignored="false"/>
+  <metric id="69016" type="folder" originalName="Run-time statistics" active="true" detached="N/A" ignored="false"/>
+  <metric id="69017" type="sizing-measure" originalName="CPU Time" active="false" detached="false" ignored="false"/>
+  <metric id="69018" type="sizing-measure" originalName="Database Time" active="false" detached="false" ignored="false"/>
+</root>

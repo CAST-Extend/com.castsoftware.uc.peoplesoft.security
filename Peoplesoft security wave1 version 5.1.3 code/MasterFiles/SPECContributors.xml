@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" contributorId="2104820" contributorType="quality-rule" contributorOriginalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" critical="false" weight="9" />
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" contributorId="2104822" contributorType="quality-rule" contributorOriginalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" critical="false" weight="9" />
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" contributorId="2104824" contributorType="quality-rule" contributorOriginalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" critical="false" weight="9" />
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" contributorId="2104826" contributorType="quality-rule" contributorOriginalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" critical="false" weight="9" />
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" contributorId="2104828" contributorType="quality-rule" contributorOriginalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" critical="false" weight="7" />
+</root>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.uc.peoplesoft.security</id>
+    <version>5.0.5</version>
+    <title>Technology Extension For Peoplesoft - Custom Security Rules add-on</title>
+    <authors>User Community</authors>
+    <owners>CAST</owners>
+    <licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-AIP-Extension-License</licenseUrl>
+    <projectUrl>https://github.com/CAST-Extend/com.castsoftware.uc.peoplesoft.security/wiki/Peoplesoft-Security-quality-rules-add-on</projectUrl>
+    <iconUrl>https://github.com/CAST-Extend/com.castsoftware.uc.cvm.csv.integration/blob/master/NetSPI64x64.png?raw=true</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This extension is an add-on to Technology Extension For Peoplesoft, with custom security quality rules applicable to PeopleCode.</description>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.uc.peoplesoft.security/wiki/Peoplesoft-Security-quality-rules-add-on</releaseNotes>
+    <tags>techno:peoplesoft peoplecode OWASP CWE CAIP8.0 CAIP8.1 CAIP8.2</tags>
+    <dependencies>
+      <dependency id="CAIP" version="7.3.6" />
+      <dependency id="com.castsoftware.peoplesoft" version="5.0.4" />
+    </dependencies>
+  </metadata>
+</package>

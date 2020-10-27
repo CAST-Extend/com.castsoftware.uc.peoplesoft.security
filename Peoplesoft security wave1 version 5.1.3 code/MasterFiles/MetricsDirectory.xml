@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <metric id="-1" type="N/A" originalName="N/A" active="N/A" detached="N/A" ignored="false" />
+  <metric id="66062" type="technical-criterion" originalName="Secure Coding - Input Validation" active="N/A" detached="N/A" ignored="false" />
+  <metric id="2104820" type="quality-rule" originalName="Avoid SQL injection vulnerabilities in PeopleCode ( CWE-89 )" active="true" detached="false" ignored="false" />
+  <metric id="2104822" type="quality-rule" originalName="Avoid XSS injection vulnerabilities in PeopleCode ( CWE-79 )" active="true" detached="false" ignored="false" />
+  <metric id="2104824" type="quality-rule" originalName="Avoid File Path manipulation vulnerabilities in PeopleCode ( CWE-73 )" active="true" detached="false" ignored="false" />
+  <metric id="2104826" type="quality-rule" originalName="Avoid OS Command injection vulnerabilities in PeopleCode ( CWE-78 )" active="true" detached="false" ignored="false" />
+  <metric id="2104828" type="quality-rule" originalName="Avoid Log Forging vulnerabilities in PeopleCode ( CWE-117 )" active="true" detached="false" ignored="false" />
+</root>

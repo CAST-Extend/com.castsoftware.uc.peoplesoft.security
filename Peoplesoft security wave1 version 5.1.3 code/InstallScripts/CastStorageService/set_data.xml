@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DATA model="OBJSET" version="1.0.0.0" scope="OBJSETINIT" export="OK">
+<SET_Definitions>
+	<SetId>2104100</SetId>
+	<SetName>SET_Psft_Secu_CustomMetrics</SetName>
+	<SetType>DIAG_SCOPE</SetType>
+	<SetProcedure>SET_Psft_Secu_CustomMetrics</SetProcedure>
+</SET_Definitions>
+</DATA>
